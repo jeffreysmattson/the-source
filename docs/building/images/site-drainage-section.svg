@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460" role="img" aria-labelledby="t d">
+  <title id="t">Site drainage section on a sloped lot</title>
+  <desc id="d">Cross-section through a building on a slope. Uphill, a diversion swale intercepts surface water before it reaches the building. Finished grade falls at least six inches within the first ten feet away from the foundation wall. The footing bears below the frost line, and a footing drain in crushed stone is pitched to a daylight outlet downhill.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="380" y="60" width="200" height="116" stroke="#a8b2c0" stroke-width="3"/>
+    <rect x="380" y="176" width="200" height="124" stroke="#8a95a6" stroke-width="4"/>
+    <rect x="364" y="300" width="232" height="22" stroke="#8a95a6" stroke-width="4"/>
+
+    <path d="M30 120 L130 152 L148 178 L168 152 L300 190 L378 176" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M582 176 L700 196 L880 240" stroke="#8a95a6" stroke-width="4"/>
+
+    <path d="M240 285 L850 285" stroke="#a8b2c0" stroke-width="2" stroke-dasharray="7 5"/>
+
+    <circle cx="606" cy="306" r="9" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M616 312 L840 346" stroke="#a8b2c0" stroke-width="2" stroke-dasharray="6 4"/>
+
+    <g stroke="#a8b2c0" stroke-width="1.5" stroke-dasharray="4 3">
+      <path d="M580 176 L724 176"/><path d="M700 196 L724 196"/>
+    </g>
+    <g stroke="#f0a33c" stroke-width="2">
+      <path d="M716 176 L716 196"/><path d="M710 176 L722 176"/><path d="M710 196 L722 196"/>
+      <path d="M580 218 L700 218"/><path d="M580 212 L580 224"/><path d="M700 212 L700 224"/>
+    </g>
+
+    <g stroke="#60a5fa" stroke-width="2.5">
+      <path d="M80 128 L112 138"/><polygon points="108,132 120,141 106,144" fill="#60a5fa" stroke="none"/>
+      <path d="M624 182 L664 189"/><polygon points="658,183 674,191 657,195" fill="#60a5fa" stroke="none"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="32" y="108">Natural slope</text>
+    <text x="40" y="238">Diversion swale —</text>
+    <text x="40" y="254">intercepts uphill water</text>
+    <text x="480" y="122" text-anchor="middle">Building</text>
+    <text x="480" y="244" text-anchor="middle">Foundation wall</text>
+    <text x="232" y="290" text-anchor="end">Frost line</text>
+    <text x="232" y="306" text-anchor="end" font-size="11.5">(local depth)</text>
+    <text x="480" y="348" text-anchor="middle">Footing bears below frost line</text>
+    <text x="862" y="392" text-anchor="end">Footing drain in stone, pitched to daylight</text>
+    <text x="742" y="252">Finished grade</text>
+    <text x="730" y="192" fill="#f0a33c">6 in min</text>
+    <text x="640" y="238" text-anchor="middle" fill="#f0a33c">10 ft</text>
+  </g>
+</svg>
