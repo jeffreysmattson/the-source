@@ -7,10 +7,10 @@ trades. [Shelter](../shelter/index.md) covers the adjacent question of keeping
 an existing structure habitable: insulation, heating, and repair.
 
 - [Site Preparation](site-preparation.md)
+- [Foundations](foundations.md)
 
 ## To be written
 
-- Foundations: footings, walls, slabs, and frost protection
 - Framing and structural basics
 - Roofing and weatherproofing
 - Masonry, concrete, and mortar mixes
