@@ -1,5 +1,5 @@
-site_name: Offline Survival Wiki
-site_description: Self-reliance reference for use without internet access.
+site_name: General Information
+site_description: A general-purpose local reference wiki, usable without internet access.
 docs_dir: docs
 site_dir: site
 
@@ -27,6 +27,7 @@ theme:
 
 plugins:
   - search
+  - glightbox
   - offline
 
 markdown_extensions:
@@ -39,3 +40,10 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
+
+# Local copy of the iframe-worker shim. Declaring it here stops the offline
+# plugin from injecting the same script from unpkg.com, which would be an
+# unreachable dependency in exactly the situation this wiki is built for.
+extra:
+  polyfills:
+    - assets/javascripts/iframe-worker.js

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" width="820" height="520" role="img" aria-labelledby="title desc">
+  <title id="title">Rainwater catchment schematic</title>
+  <desc id="desc">Rain falls on a catchment roof into a screened gutter, down a downspout to a tee. The vertical branch is a first-flush diverter that fills and discards the first runoff. The horizontal branch carries the remaining water into a screened, opaque storage tank fitted with an overflow line and a spigot set above the sediment layer.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#60a5fa" stroke-width="3">
+      <path d="M70 18 L83 44"/><path d="M115 18 L128 44"/>
+      <path d="M160 18 L173 44"/><path d="M205 18 L218 44"/>
+    </g>
+
+    <path d="M50 75 L275 158" stroke="#8a95a6" stroke-width="11"/>
+    <g stroke="#a8b2c0" stroke-width="3">
+      <path d="M100 93 L100 122"/><path d="M160 115 L160 144"/><path d="M220 137 L220 166"/>
+    </g>
+
+    <path d="M264 152 L264 172 L306 172 L306 152" stroke="#8a95a6" stroke-width="5"/>
+    <path d="M264 152 L306 152" stroke="#f0a33c" stroke-width="3" stroke-dasharray="5 3"/>
+
+    <path d="M285 172 L285 252" stroke="#8a95a6" stroke-width="11"/>
+    <path d="M285 252 L478 252 L478 302" stroke="#8a95a6" stroke-width="11"/>
+    <circle cx="285" cy="252" r="7" fill="#8a95a6" stroke="none"/>
+
+    <path d="M285 258 L285 392" stroke="#8a95a6" stroke-width="22" stroke-linecap="butt"/>
+    <path d="M285 312 L285 386" stroke="#f0a33c" stroke-width="13" stroke-linecap="butt"/>
+    <path d="M272 394 L298 394" stroke="#8a95a6" stroke-width="6"/>
+    <circle cx="285" cy="406" r="6" stroke="#8a95a6" stroke-width="3"/>
+    <polygon points="278,418 292,418 285,432" fill="#f0a33c" stroke="none"/>
+
+    <rect x="428" y="302" width="152" height="156" rx="12" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M456 304 L500 304" stroke="#f0a33c" stroke-width="3" stroke-dasharray="5 3"/>
+    <rect x="434" y="356" width="140" height="96" rx="8" fill="#7fb8f5" opacity="0.55" stroke="none"/>
+
+    <path d="M580 328 L662 328 L662 452" stroke="#8a95a6" stroke-width="10"/>
+    <polygon points="653,448 671,448 662,466" fill="#8a95a6" stroke="none"/>
+
+    <path d="M428 428 L398 428" stroke="#8a95a6" stroke-width="8"/>
+    <circle cx="398" cy="418" r="5" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M390 446 L400 432" stroke="#a8b2c0" stroke-width="1.5"/>
+
+    <rect x="436" y="458" width="48" height="18" fill="#a8b2c0" stroke="none"/>
+    <rect x="524" y="458" width="48" height="18" fill="#a8b2c0" stroke="none"/>
+    <path d="M392 478 L700 478" stroke="#a8b2c0" stroke-width="3"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="45" y="148">Catchment roof</text>
+    <text x="45" y="164" font-size="11.5">(metal preferred)</text>
+    <text x="252" y="190" text-anchor="end">Gutter + 1 mm screen</text>
+    <text x="258" y="330" text-anchor="end">First-flush</text>
+    <text x="258" y="346" text-anchor="end">diverter</text>
+    <text x="258" y="368" text-anchor="end" font-size="11.5">discard first 10 gal</text>
+    <text x="258" y="383" text-anchor="end" font-size="11.5">per 1,000 sq ft roof</text>
+    <text x="388" y="452" text-anchor="end">Spigot</text>
+    <text x="388" y="468" text-anchor="end" font-size="11.5">2–3 in above floor</text>
+    <text x="512" y="290">Screened inlet</text>
+    <text x="504" y="330" text-anchor="middle">Opaque food-grade</text>
+    <text x="504" y="346" text-anchor="middle">storage tank</text>
+    <text x="676" y="322">Overflow</text>
+    <text x="676" y="338" font-size="11.5">≥ inlet size</text>
+  </g>
+</svg>

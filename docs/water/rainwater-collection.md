@@ -12,6 +12,10 @@ Collected rainwater is **not potable as collected.** It carries roof debris,
 bird droppings, and whatever the roofing material sheds. Treat this page as
 covering collection and storage only; purification is a separate step.
 
+![Rainwater catchment schematic](images/rainwater-catchment.svg){ width="760" }
+
+*Roof catchment through a first-flush diverter into screened storage. Click to enlarge.*
+
 ## Materials
 
 - Food-grade barrel or tank, 55 gal or larger (HDPE, opaque)
