@@ -4,7 +4,9 @@ Markdown source for a self-hosted, offline-capable general reference wiki.
 
 - `docs/` — the wiki content. Plain markdown, readable without any software.
 - `mkdocs.yml` — site configuration.
-- `site/` — generated HTML. Not tracked in git; rebuild it with `mkdocs build`.
+- `site/` — generated HTML. Not tracked in git; rebuild it with `make build`.
+- `dist/` — portable copies from `make dist`. Not tracked in git.
+- `AGENTS.md` — conventions and constraints for AI agents working on this repo.
 
 ## Commands
 
@@ -12,7 +14,8 @@ Markdown source for a self-hosted, offline-capable general reference wiki.
 make serve             # live preview, reachable from the local network
 make serve PORT=8080   # ...on a different port
 make build             # regenerate site/ for offline use
-make clean             # delete site/
+make dist              # dated portable copy for a USB drive
+make clean             # delete site/ and dist/
 ```
 
 The built `site/index.html` opens directly from disk with no server running.
@@ -45,6 +48,21 @@ static site generator.
 2. `git add -A && git commit -m "describe the change"`
 3. `make build`
 4. Clone or copy the repository to a second machine for redundancy.
+
+## Portable copies
+
+`git clone` carries the markdown but not the built HTML, which is gitignored —
+a machine without MkDocs would have the source and no way to read it as a site.
+`make dist` solves that:
+
+```bash
+make dist
+cp -R dist/the-source-<date> /Volumes/YOUR_DRIVE/
+```
+
+The result is self-contained: the built site, the markdown source, the config
+needed to rebuild, and a `START-HERE.txt` explaining how to read it. Open its
+`site/index.html` in any browser, with no server, no install, and no internet.
 
 Nav is generated from the folder tree, so new files appear automatically with
 no configuration change. A file named `index.md` becomes its folder's landing page.
