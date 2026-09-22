@@ -9,18 +9,41 @@ Markdown source for a self-hosted, offline-capable general reference wiki.
 ## Commands
 
 ```bash
-mkdocs serve -a 0.0.0.0:8000   # live preview, reachable from the local network
-mkdocs build                   # regenerate site/ for offline use
+make serve             # live preview, reachable from the local network
+make serve PORT=8080   # ...on a different port
+make build             # regenerate site/ for offline use
+make clean             # delete site/
 ```
 
 The built `site/index.html` opens directly from disk with no server running.
 Search is bundled into the page and works offline.
 
+The Makefile sets `NO_MKDOCS_2_WARNING`, which suppresses the Material for
+MkDocs banner about the upcoming MkDocs 2.0 release. Running `mkdocs` directly
+still works and still prints it.
+
+## Toolchain
+
+Versions are pinned in `requirements.txt`. Material for MkDocs expects
+MkDocs 1.x, and MkDocs 2.0 is expected to break the plugins this site uses, so
+do not upgrade without checking that the build still works.
+
+To set up the toolchain on another machine:
+
+```bash
+pipx install mkdocs==1.6.1
+pipx inject mkdocs mkdocs-material==9.7.7 mkdocs-glightbox==0.5.2
+```
+
+If the toolchain ever becomes unmaintainable, the content is unaffected — the
+markdown in `docs/` is the source of truth and can be pointed at a different
+static site generator.
+
 ## Workflow
 
 1. Add or edit markdown files under `docs/`.
 2. `git add -A && git commit -m "describe the change"`
-3. `mkdocs build`
+3. `make build`
 4. Clone or copy the repository to a second machine for redundancy.
 
 Nav is generated from the folder tree, so new files appear automatically with

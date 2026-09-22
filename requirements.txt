@@ -1,0 +1,10 @@
+# Pinned toolchain for building this wiki.
+#
+# Exact pins, not ranges. Material for MkDocs expects MkDocs 1.x, and an
+# unattended upgrade to MkDocs 2.0 is expected to break the plugins this site
+# depends on (search, offline, glightbox). Pinning means a rebuild on another
+# machine produces the same site instead of whatever resolved that day.
+
+mkdocs==1.6.1
+mkdocs-material==9.7.7
+mkdocs-glightbox==0.5.2
