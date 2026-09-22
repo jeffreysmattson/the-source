@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 96 880 544" width="880" height="544" role="img" aria-labelledby="t d">
+  <title id="t">Section through a platform-framed building, showing the load path and rafter thrust</title>
+  <desc id="d">Transverse section through a small gable-roofed building. From the top down: roof sheathing over rafters that meet at a ridge board, a collar tie in the upper third of the rafter span, ceiling joists resting on the wall top plates and running the full width of the building so they act as rafter ties, a double top plate, stud walls, a bottom plate on a subfloor, floor joists spanning to a center girder carried on a post and footing, sill plates anchor-bolted to foundation walls, and footings below frost depth. Blue arrows trace the gravity load path from the rafter down the wall and through the foundation to the footing. Orange arrows at the top of each wall show the outward thrust the rafters exert, which the ceiling-joist tie resists. Not to scale.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M40 500 L196 500" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M684 500 L840 500" stroke="#8a95a6" stroke-width="3"/>
+
+    <g stroke="#8a95a6" stroke-width="2.5">
+      <rect x="196" y="470" width="18" height="108"/>
+      <rect x="176" y="578" width="58" height="18"/>
+      <rect x="666" y="470" width="18" height="108"/>
+      <rect x="646" y="578" width="58" height="18"/>
+      <rect x="432" y="456" width="16" height="122"/>
+      <rect x="412" y="578" width="56" height="18"/>
+    </g>
+
+    <g stroke="#8a95a6" stroke-width="2.5">
+      <rect x="194" y="456" width="22" height="14"/>
+      <rect x="664" y="456" width="22" height="14"/>
+      <rect x="196" y="424" width="488" height="32"/>
+      <rect x="424" y="424" width="32" height="32"/>
+      <rect x="196" y="424" width="10" height="32"/>
+      <rect x="674" y="424" width="10" height="32"/>
+    </g>
+    <path d="M190 420 L690 420" stroke="#8a95a6" stroke-width="4"/>
+
+    <g stroke="#8a95a6" stroke-width="2.5">
+      <rect x="196" y="408" width="18" height="12"/>
+      <rect x="666" y="408" width="18" height="12"/>
+      <rect x="196" y="304" width="18" height="104"/>
+      <rect x="666" y="304" width="18" height="104"/>
+      <rect x="196" y="280" width="18" height="24"/>
+      <rect x="666" y="280" width="18" height="24"/>
+    </g>
+    <g stroke="#8a95a6" stroke-width="1.5">
+      <path d="M196 292 L214 292"/>
+      <path d="M666 292 L684 292"/>
+    </g>
+
+    <rect x="196" y="258" width="488" height="22" stroke="#8a95a6" stroke-width="2.5"/>
+
+    <path d="M172 293 L440 150 L440 132 L172 275 Z" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M708 293 L440 150 L440 132 L708 275 Z" stroke="#8a95a6" stroke-width="2.5"/>
+    <rect x="432" y="124" width="16" height="46" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M172 267 L440 124" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M708 267 L440 124" stroke="#8a95a6" stroke-width="4"/>
+    <rect x="384" y="172" width="112" height="12" stroke="#6b7787" stroke-width="2.5"/>
+
+    <g stroke="#60a5fa" stroke-width="3">
+      <path d="M590 221 L650 253"/><path d="M638 248 L650 253 L645 241"/>
+      <path d="M675 318 L675 394"/><path d="M669 383 L675 394 L681 383"/>
+      <path d="M675 486 L675 566"/><path d="M669 555 L675 566 L681 555"/>
+    </g>
+
+    <g stroke="#f0a33c" stroke-width="3">
+      <path d="M196 310 L150 310"/><path d="M161 304 L150 310 L161 316"/>
+      <path d="M684 310 L730 310"/><path d="M719 304 L730 310 L719 316"/>
+    </g>
+
+    <g stroke="#a8b2c0" stroke-width="1.5">
+      <path d="M168 202 L268 214"/>
+      <path d="M168 246 L230 253"/>
+      <path d="M168 362 L194 364"/>
+      <path d="M168 440 L250 440"/>
+      <path d="M168 478 L192 464"/>
+      <path d="M168 532 L194 530"/>
+      <path d="M712 132 L506 176"/>
+      <path d="M712 272 L640 270"/>
+      <path d="M712 340 L682 352"/>
+      <path d="M712 448 L682 440"/>
+      <path d="M712 570 L702 586"/>
+      <path d="M440 610 L440 598"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="164" y="206" text-anchor="end">Roof sheathing</text>
+    <text x="164" y="250" text-anchor="end">Rafter</text>
+    <text x="164" y="366" text-anchor="end">Stud wall</text>
+    <text x="164" y="444" text-anchor="end">Floor joists</text>
+    <text x="164" y="482" text-anchor="end">Sill plate</text>
+    <text x="164" y="536" text-anchor="end">Foundation wall</text>
+
+    <text x="716" y="124">Collar tie —</text>
+    <text x="716" y="140">upper third</text>
+    <text x="716" y="268">Ceiling joists as</text>
+    <text x="716" y="284">rafter ties</text>
+    <text x="716" y="344">Load path</text>
+    <text x="716" y="452">Rim joist</text>
+    <text x="716" y="566">Footing below</text>
+    <text x="716" y="582">frost depth</text>
+
+    <text x="440" y="336" text-anchor="middle" font-size="12">Rafters push the top of the wall outward;</text>
+    <text x="440" y="352" text-anchor="middle" font-size="12">the tie across the bottom resists it</text>
+    <text x="440" y="618" text-anchor="middle">Center girder, post, and footing</text>
+  </g>
+</svg>

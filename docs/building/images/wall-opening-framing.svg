@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-labelledby="t2 d2">
+  <title id="t2">Elevation of a framed wall with a rough opening</title>
+  <desc id="d2">Elevation of a stud wall showing, from the top down, a double top plate, cripple studs over the header, a built-up header spanning the opening, king studs running full height on each side of the opening, jack or trimmer studs inside the kings carrying the ends of the header, the rough opening itself, a double rough sill, cripple studs below the sill, and the bottom or sole plate. Common studs fill the wall on either side. Not to scale.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#8a95a6" stroke-width="2.5">
+    <rect x="80" y="48" width="720" height="16"/>
+    <rect x="80" y="64" width="720" height="16"/>
+    <rect x="80" y="336" width="720" height="16"/>
+
+    <rect x="80" y="80" width="14" height="256"/>
+    <rect x="150" y="80" width="14" height="256"/>
+    <rect x="220" y="80" width="14" height="256"/>
+    <rect x="290" y="80" width="14" height="256"/>
+    <rect x="716" y="80" width="14" height="256"/>
+    <rect x="786" y="80" width="14" height="256"/>
+
+    <rect x="346" y="80" width="14" height="256"/>
+    <rect x="640" y="80" width="14" height="256"/>
+
+    <rect x="360" y="148" width="14" height="188"/>
+    <rect x="626" y="148" width="14" height="188"/>
+
+    <rect x="360" y="104" width="280" height="44"/>
+    <rect x="374" y="254" width="252" height="28"/>
+  </g>
+  <g fill="none" stroke="#8a95a6" stroke-width="1.5">
+    <path d="M360 126 L640 126"/>
+    <path d="M374 268 L626 268"/>
+  </g>
+
+  <g fill="none" stroke="#6b7787" stroke-width="2.5">
+    <rect x="388" y="80" width="14" height="24"/>
+    <rect x="438" y="80" width="14" height="24"/>
+    <rect x="488" y="80" width="14" height="24"/>
+    <rect x="538" y="80" width="14" height="24"/>
+    <rect x="588" y="80" width="14" height="24"/>
+    <rect x="388" y="282" width="14" height="54"/>
+    <rect x="438" y="282" width="14" height="54"/>
+    <rect x="488" y="282" width="14" height="54"/>
+    <rect x="538" y="282" width="14" height="54"/>
+    <rect x="588" y="282" width="14" height="54"/>
+  </g>
+
+  <g fill="none" stroke="#a8b2c0" stroke-width="1.5">
+    <path d="M200 36 L200 48"/>
+    <path d="M470 36 L495 90"/>
+    <path d="M686 36 L630 112"/>
+    <path d="M180 372 L180 352"/>
+    <path d="M340 372 L367 306"/>
+    <path d="M500 372 L495 320"/>
+    <path d="M690 372 L647 306"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="130" y="32" text-anchor="middle">Double top plate</text>
+    <text x="470" y="32" text-anchor="middle">Cripple studs</text>
+    <text x="700" y="32" text-anchor="middle">Header</text>
+
+    <text x="500" y="186" text-anchor="middle">Rough opening</text>
+    <text x="500" y="204" text-anchor="middle" font-size="12">sized to the unit, not the finish</text>
+    <text x="500" y="244" text-anchor="middle" font-size="12">Double rough sill</text>
+
+    <text x="180" y="386" text-anchor="middle">Bottom plate</text>
+    <text x="340" y="386" text-anchor="middle">Jack studs</text>
+    <text x="500" y="386" text-anchor="middle">Cripples under sill</text>
+    <text x="690" y="386" text-anchor="middle">King studs</text>
+  </g>
+</svg>

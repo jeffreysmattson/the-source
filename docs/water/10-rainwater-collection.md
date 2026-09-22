@@ -70,9 +70,15 @@ covering collection and storage only; purification is a separate step.
 
 ## Treatment before drinking
 
-Collected rainwater requires sediment filtration followed by biological
-purification before consumption. Filtration alone does not make it safe, and
-boiling alone does not remove sediment or chemical contaminants.
+Collected rainwater is **not safe to drink as stored.** The treatment sequence is
+always *get it clear, then disinfect*: let sediment settle and filter the water
+to clear, then boil or add household bleach (8 drops of unscented ~6% bleach per
+gallon, 30-minute contact). Filtration alone does not make it safe, and boiling
+alone does not remove sediment or chemical contaminants.
+
+See [Water Purification](20-water-purification.md) for full methods and dosages,
+including iodine, filtration ratings, solar disinfection, distillation, and what
+does *not* work.
 
 ## Legal note
 
