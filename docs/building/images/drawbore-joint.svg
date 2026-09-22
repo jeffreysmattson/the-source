@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 400" width="880" height="400" role="img" aria-labelledby="t d">
+  <title id="t">Drawbored mortise and tenon joint, before and after the peg is driven</title>
+  <desc id="d">Two sections through a post on the peg axis. On the left the joint is bored and dry-fitted: the hole through the tenon was bored closer to the shoulder than the hole through the post, so the two do not line up, and a gap remains at the shoulder. On the right a riven octagonal peg with a long tapered point has been driven through both holes. The taper forces the tenon deeper into the mortise until the shoulder is tight against the face of the post, and the peg takes a slight permanent bend that acts as a spring as the timber seasons. The offset is drawn exaggerated for clarity.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <rect x="60" y="110" width="140" height="170" fill="#8a95a6" fill-opacity="0.18" stroke="#8a95a6" stroke-width="2"/>
+    <path d="M200 180 L100 180 L100 214 L200 214" stroke="#8a95a6" stroke-width="2"/>
+    <rect x="117" y="182" width="95" height="30" fill="#6b7787" fill-opacity="0.3" stroke="#6b7787" stroke-width="2"/>
+    <rect x="212" y="155" width="170" height="84" fill="#8a95a6" fill-opacity="0.18" stroke="#8a95a6" stroke-width="2"/>
+    <rect x="200" y="155" width="12" height="84" fill="#e0705a" fill-opacity="0.22" stroke="#e0705a" stroke-width="1.5"/>
+
+    <g stroke="#6b7787" stroke-width="1.8" stroke-dasharray="5 4">
+      <rect x="155" y="110" width="20" height="72"/>
+      <rect x="155" y="212" width="20" height="68"/>
+    </g>
+    <rect x="175" y="182" width="20" height="30" fill="#e0705a" fill-opacity="0.18" stroke="#e0705a" stroke-width="1.8" stroke-dasharray="5 4"/>
+
+    <g stroke="#a8b2c0" stroke-width="1.2" stroke-dasharray="3 4">
+      <path d="M165 90 L165 110"/>
+      <path d="M185 90 L185 182"/>
+    </g>
+    <g stroke="#8a95a6" stroke-width="1.6">
+      <path d="M165 100 L185 100"/>
+      <path d="M165 93 L165 107"/><path d="M185 93 L185 107"/>
+    </g>
+
+    <rect x="500" y="110" width="140" height="170" fill="#8a95a6" fill-opacity="0.18" stroke="#8a95a6" stroke-width="2"/>
+    <path d="M640 180 L540 180 L540 214 L640 214" stroke="#8a95a6" stroke-width="2"/>
+    <rect x="545" y="182" width="95" height="30" fill="#6b7787" fill-opacity="0.3" stroke="#6b7787" stroke-width="2"/>
+    <rect x="640" y="155" width="170" height="84" fill="#8a95a6" fill-opacity="0.18" stroke="#8a95a6" stroke-width="2"/>
+
+    <path d="M605 96 L605 178 C605 186 613 188 613 197 C613 206 605 208 605 216 L605 268"
+          stroke="#f0a33c" stroke-width="16" stroke-opacity="0.8" stroke-linecap="butt"/>
+    <path d="M598 268 L612 268 L605 290 Z" fill="#f0a33c" fill-opacity="0.8" stroke="#f0a33c" stroke-width="1.5"/>
+    <path d="M595 96 L615 96" stroke="#f0a33c" stroke-width="4"/>
+
+    <g stroke="#4ea88a" stroke-width="2.5">
+      <path d="M676 250 L648 250"/><path d="M656 244 L646 250 L656 256"/>
+    </g>
+
+    <g stroke="#a8b2c0" stroke-width="1.5">
+      <path d="M168 284 L128 322"/>
+      <path d="M190 216 L238 262"/>
+      <path d="M206 152 L236 138"/>
+      <path d="M616 130 L676 126"/>
+      <path d="M616 200 L652 310"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="40" y="44" font-size="14" fill="#6b7787">1. Bored and dry-fitted</text>
+    <text x="500" y="44" font-size="14" fill="#6b7787">2. Peg driven — joint pulled tight</text>
+
+    <text x="175" y="82" text-anchor="middle" font-size="11.5">offset (exaggerated)</text>
+
+    <text x="244" y="266" fill="#cf6a55">Peg hole in the tenon,</text>
+    <text x="244" y="282" fill="#cf6a55">bored toward the shoulder</text>
+    <text x="60" y="334">Peg hole in the post</text>
+    <text x="240" y="134" fill="#cf6a55">Shoulder not yet closed</text>
+
+    <text x="682" y="122">Riven octagonal peg,</text>
+    <text x="682" y="138">long tapered point</text>
+    <text x="682" y="254">Shoulder drawn tight</text>
+    <text x="658" y="320">Slight bend remains —</text>
+    <text x="658" y="336">a spring as the timber dries</text>
+
+    <text x="440" y="374" text-anchor="middle" font-size="11.5">Sections through the post on the peg axis. A 1 in peg is offset about 1/8 in in softwood, 3/32 in in hardwood.</text>
+  </g>
+</svg>

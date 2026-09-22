@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" role="img" aria-labelledby="t d">
+  <title id="t">Eave detail: ice barrier extent, drip edge, vent channel, and the heat path that causes ice dams</title>
+  <desc id="d">Section through a roof eave on a sloped roof. From the structural sheathing up, the layers are a self-adhering ice barrier running from the eave edge to a point twenty-four inches inside the exterior wall line, underlayment lapped over it up-slope, and asphalt shingles. A drip edge wraps the eave edge. Below the deck, a baffle keeps a vented air channel open from the soffit intake vent past the insulation, which is carried at full depth over the top plate. An ice dam has formed at the cold overhang, with meltwater ponded behind it backing up under the shingles. Red arrows show warm air leaking up through the ceiling plane, which is the actual cause of the melting above.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+
+    <path d="M130 330 L850 150 L851.9 157.8 L131.9 337.8 Z" fill="#8a95a6" fill-opacity="0.35" stroke="#8a95a6" stroke-width="1.5"/>
+    <path d="M130 330 L463 246.8 L461.8 241.9 L128.8 325.2 Z" fill="#60a5fa" fill-opacity="0.5" stroke="#60a5fa" stroke-width="1.5"/>
+    <path d="M460 244 L848.3 143.2" stroke="#a8b2c0" stroke-width="2" stroke-dasharray="6 4"/>
+    <path d="M128.3 323.2 L848.3 143.2 L846.4 135.5 L126.4 315.5 Z" fill="#6b7787" fill-opacity="0.5" stroke="#6b7787" stroke-width="1.5"/>
+
+    <path d="M186 286 L330 265.5 L200 289 Z" fill="#60a5fa" fill-opacity="0.55" stroke="#60a5fa" stroke-width="1.5"/>
+    <path d="M132 316 L150 292 L186 286 L200 289 Z" fill="#60a5fa" fill-opacity="0.85" stroke="#60a5fa" stroke-width="1.5"/>
+
+    <path d="M122 386 L122 331 L158 322" stroke="#f0a33c" stroke-width="3.5"/>
+    <path d="M136 340 L136 384" stroke="#8a95a6" stroke-width="5"/>
+    <path d="M122 384 L360 384" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M210 384 L280 384" stroke="#f0a33c" stroke-width="6"/>
+
+    <path d="M360 384 L360 452" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M360 362 L412 362 L412 384" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M412 373 L760 373" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M412 362 Q490 332 560 318 L760 318 L760 373 L412 373 Z" fill="#f0a33c" fill-opacity="0.22" stroke="#f0a33c" stroke-width="1.5"/>
+
+    <path d="M200 328 L420 273 L490 255" stroke="#4ea88a" stroke-width="3"/>
+    <g stroke="#4ea88a" stroke-width="2.5">
+      <path d="M245 378 L245 350"/><path d="M239 358 L245 348 L251 358"/>
+      <path d="M330 306 L402 288"/><path d="M392 281 L404 287 L393 294"/>
+    </g>
+
+    <g stroke="#e0705a" stroke-width="2.5">
+      <path d="M470 424 L470 384"/><path d="M464 392 L470 382 L476 392"/>
+      <path d="M560 424 L560 384"/><path d="M554 392 L560 382 L566 392"/>
+      <path d="M650 424 L650 384"/><path d="M644 392 L650 382 L656 392"/>
+    </g>
+
+    <g stroke="#a8b2c0" stroke-width="1.5" stroke-dasharray="5 4">
+      <path d="M360 212 L360 452"/>
+      <path d="M463 212 L463 248"/>
+    </g>
+    <g stroke="#8a95a6" stroke-width="1.8">
+      <path d="M362 222 L461 222"/>
+      <path d="M362 216 L362 228"/><path d="M461 216 L461 228"/>
+    </g>
+
+    <g stroke="#a8b2c0" stroke-width="1.5">
+      <path d="M700 173 L752 212"/>
+      <path d="M704 182 L752 234"/>
+      <path d="M700 195 L752 256"/>
+      <path d="M150 210 L174 284"/>
+      <path d="M432 253 L494 266"/>
+      <path d="M108 368 L120 358"/>
+      <path d="M245 388 L218 400"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="758" y="216">Asphalt shingles</text>
+    <text x="758" y="238">Underlayment</text>
+    <text x="758" y="260">Structural sheathing</text>
+
+    <text x="40" y="150" font-size="14" fill="#6b7787">Ice dam</text>
+    <text x="40" y="170">Meltwater from the warmed upper roof</text>
+    <text x="40" y="186">refreezes at the cold overhang and</text>
+    <text x="40" y="202">ponds back under the shingles</text>
+
+    <text x="411" y="208" text-anchor="middle">24 in</text>
+
+    <text x="500" y="266">Ice barrier — self-adhering membrane,</text>
+    <text x="500" y="282">from the eave edge to this point</text>
+
+    <text x="430" y="300">Vent channel, baffled past the insulation</text>
+    <text x="600" y="352" font-size="12">Insulation, full depth over the top plate</text>
+
+    <text x="104" y="372" text-anchor="end">Drip edge</text>
+    <text x="212" y="416">Soffit intake vent</text>
+    <text x="352" y="444" text-anchor="end">Exterior wall line</text>
+
+    <text x="430" y="452" fill="#e0705a">Warm air leaking through the ceiling plane —</text>
+    <text x="430" y="470" fill="#e0705a">the actual cause. The membrane is only a backstop.</text>
+  </g>
+</svg>
