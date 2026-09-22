@@ -1,4 +1,4 @@
-# General Information
+# The Source
 
 Markdown source for a self-hosted, offline-capable general reference wiki.
 

@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# General Information
+# The Source
 
 A local reference wiki. Everything here is designed to remain usable with no
 internet connection, and to stay readable as plain text even if the web server
