@@ -6,8 +6,8 @@ This section covers *how to build* — foundations, framing, joinery, and the
 trades. [Shelter](../shelter/index.md) covers the adjacent question of keeping
 an existing structure habitable: insulation, heating, and repair.
 
-- [Site Preparation](site-preparation.md)
-- [Foundations](foundations.md)
+- [Site Preparation](10-site-preparation.md)
+- [Foundations](20-foundations.md)
 
 ## To be written
 

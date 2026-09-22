@@ -4,7 +4,7 @@ Potable water is the shortest-fuse survival need after breathable air and core
 body temperature. Pages in this section cover getting water, storing it, and
 making it safe to drink.
 
-- [Rainwater Collection](rainwater-collection.md)
+- [Rainwater Collection](10-rainwater-collection.md)
 
 ## To be written
 

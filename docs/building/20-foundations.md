@@ -13,7 +13,7 @@ growing with enough force to lift a house. It needs three ingredients: freezing
 temperatures, frost-susceptible soil, and water. A foundation strategy works by
 removing at least one of them.
 
-This page assumes [Site Preparation](site-preparation.md) is done and you know
+This page assumes [Site Preparation](10-site-preparation.md) is done and you know
 your local frost depth, your soil, and where water goes.
 
 ## The three ways to satisfy frost

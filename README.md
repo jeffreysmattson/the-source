@@ -49,6 +49,12 @@ static site generator.
 Nav is generated from the folder tree, so new files appear automatically with
 no configuration change. A file named `index.md` becomes its folder's landing page.
 
+Pages sort alphabetically, so filenames carry a numeric prefix to force reading
+order: `10-site-preparation.md`, `20-foundations.md`. Numbers step by ten so a
+page can be inserted later without renumbering anything. The prefix does not
+appear in the page title, which comes from the H1. Ordering this way keeps the
+raw `docs/` tree readable in build order even with no renderer available.
+
 ## Images
 
 Store image files in an `images/` folder beside the page that uses them, and

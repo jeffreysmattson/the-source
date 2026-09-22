@@ -22,7 +22,9 @@ limited to them — any reference material worth keeping locally belongs here.
 - [Tools](tools/index.md) — hand tools, fabrication, maintenance, salvage
 
 New sections are just new folders in `docs/` — they appear in the navigation
-automatically, with no configuration change.
+automatically, with no configuration change. Within a section, filenames carry a
+numeric prefix (`10-`, `20-`) so pages read in a sensible order rather than
+alphabetically. The prefix is not shown anywhere in the page itself.
 
 ## How to use this wiki
 
@@ -43,7 +45,7 @@ under pressure:
 Reference and explanatory pages don't need that structure — use headings that
 fit the material.
 
-See [Rainwater Collection](water/rainwater-collection.md) as the worked example.
+See [Rainwater Collection](water/10-rainwater-collection.md) as the worked example.
 
 ## Images
 
