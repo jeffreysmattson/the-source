@@ -28,6 +28,24 @@ contaminated.**
 | **Filtration** | 0.1–0.2 µm absolute (bacteria/protozoa); ~0.03 µm or virus-rated for viruses | — | Particles + microbes per rating | Best as the first clarifying step; carbon is for taste/chemicals, not germs |
 | **SODIS** (sunlight) | Clear PET bottle in full sun | 6 h clear / 2 days overcast | Bacteria, viruses, many protozoa | Free; needs clear water and real sun; not chemicals |
 
+## Measuring the dose
+
+"Drops" is not a standard unit — a drop's size depends on the tip and the liquid.
+The working value behind the doses above is **1 drop ≈ 0.05 mL (50 µL), about 20
+drops per milliliter**, which is what a standard medicine dropper delivers. That
+makes:
+
+- Bleach (~6%): 8 drops/gallon ≈ **0.4 mL per gallon** (≈ 0.1 mL per liter)
+- Iodine (2%): 8 drops/gallon clear ≈ **0.4 mL**; 16 cloudy ≈ **0.8 mL**
+
+**Best tool: a marked oral syringe (1–3 mL).** Measuring by volume removes the
+ambiguity of counting drops — draw up exactly 0.4 mL, squirt it into the
+container, then stir. A standard medicine dropper/eyedropper (~20 drops/mL) is
+what "8 drops" refers to and is fine for single-gallon doses. For a full barrel
+or IBC, don't count hundreds of drops — measure by the milliliter (55 gal ≈ 22 mL
+bleach; 275 gal ≈ 110 mL). An unmarked squeeze bottle or a container's spout gives
+inconsistent drop sizes; avoid relying on it.
+
 ## Step 0 — Get it clear first
 
 Chemical disinfection fails in cloudy or dirty water because suspended organics
@@ -180,6 +198,8 @@ residual decays with time, light, and temperature.
   — <https://en.wikipedia.org/wiki/Water_purification>
 - Wikipedia, *Solar water disinfection* (SODIS protocol and efficacy)
   — <https://en.wikipedia.org/wiki/Solar_water_disinfection>
+- Wikipedia, *Drop (unit)* (standard drop volume ≈ 0.05 mL / 20 drops per mL)
+  — <https://en.wikipedia.org/wiki/Drop_(unit)>
 
 The specific drop-per-gallon figures are the standard emergency field values
 published by the CDC and American Red Cross for household bleach (~6% sodium

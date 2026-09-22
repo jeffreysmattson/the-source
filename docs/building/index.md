@@ -8,10 +8,10 @@ an existing structure habitable: insulation, heating, and repair.
 
 - [Site Preparation](10-site-preparation.md)
 - [Foundations](20-foundations.md)
+- [Framing and Structural Basics](30-framing.md)
 
 ## To be written
 
-- Framing and structural basics
 - Roofing and weatherproofing
 - Masonry, concrete, and mortar mixes
 - Joinery and fastening without power tools
