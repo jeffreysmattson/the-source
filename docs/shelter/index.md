@@ -1,6 +1,6 @@
 # Shelter
 
-Construction, insulation, heating, and repair.
+Insulation, heating, repair, and keeping a structure habitable.
 
 ## To be written
 

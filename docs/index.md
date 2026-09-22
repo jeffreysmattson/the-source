@@ -14,7 +14,8 @@ limited to them — any reference material worth keeping locally belongs here.
 ## Sections
 
 - [Water](water/index.md) — collection, storage, filtration, purification
-- [Shelter](shelter/index.md) — construction, insulation, heating, repair
+- [Building](building/index.md) — foundations, framing, materials, the trades
+- [Shelter](shelter/index.md) — insulation, heating, repair, habitability
 - [Food](food/index.md) — growing, foraging, preservation, cooking
 - [Medical](medical/index.md) — first aid, wound care, medication, sanitation
 - [Power](power/index.md) — generation, batteries, wiring, fuel
