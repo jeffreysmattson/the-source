@@ -159,7 +159,7 @@ protection period:
 Practical rules for a New England fall pour:
 
 - **Never place on frozen ground.** It thaws later and settles. See
-  [Site Preparation](10-site-preparation.md).
+  [Site Preparation](../site-prep/10-site-preparation.md).
 - Heat the mix water, and the aggregate if necessary. Place at the lowest
   practical slump.
 - Cover with insulating blankets immediately and keep them on through the

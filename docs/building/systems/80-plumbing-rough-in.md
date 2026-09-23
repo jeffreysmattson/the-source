@@ -237,7 +237,7 @@ insulation, heat, or both.
 
 - **Water service pipe: not less than 12 in deep, and not less than 6 in below
   the frost line.** The frost line is a local number — see
-  [Site Preparation](10-site-preparation.md).
+  [Site Preparation](../site-prep/10-site-preparation.md).
 - **Keep supply piping out of exterior walls.** If it cannot be avoided, run the
   pipe on the *warm* side of the cavity insulation, with insulation between the
   pipe and the sheathing — never the reverse. Insulation between the pipe and
@@ -283,7 +283,7 @@ valves, and tub surrounds.
 ## Cutting and drilling the frame
 
 Rough-in is where framing gets destroyed. The notching and boring limits in
-[Framing and Structural Basics](30-framing.md#drilling-and-notching-studs) are
+[Framing and Structural Basics](../structure/30-framing.md#drilling-and-notching-studs) are
 not advisory.
 
 - A 3 in drain does not fit through a 2×4 wall. Plan a **plumbing wall** of 2×6
@@ -379,7 +379,7 @@ Outside the sewer districts, this is most of New Hampshire.
 - **Scalding**: domestic hot water above 120 °F burns quickly, and a small child
   or an older adult much faster than an adult.
 - **Trenches** for water and sewer service are excavations. See the excavation
-  warnings in [Site Preparation](10-site-preparation.md).
+  warnings in [Site Preparation](../site-prep/10-site-preparation.md).
 - **Old pipe** may be lead, and old solder is lead. Lead service lines and
   lead-soldered joints are a drinking-water hazard; do not disturb them without
   knowing what you have.

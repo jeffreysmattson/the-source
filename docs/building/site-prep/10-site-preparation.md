@@ -142,7 +142,7 @@ Beyond the minimum:
   directly at the foundation if nothing carries it away. Route downspouts to
   extensions or buried leaders that discharge downhill and well clear.
 
-![Site drainage section on a sloped lot](images/site-drainage-section.svg){ width="820" }
+![Site drainage section on a sloped lot](../images/site-drainage-section.svg){ width="820" }
 
 *Diversion swale uphill, positive grade away from the wall, footing below the
 frost line, footing drain pitched to daylight. Not to scale.*

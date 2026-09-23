@@ -129,7 +129,7 @@ reaches the shingles. **Heat tape at the eave treats the ice, not the cause,
 and does nothing for the heat loss driving it.** A "warmer" roof assembly
 (unvented, insulated at the rafters instead of the attic floor) is a valid
 alternative design, but it is a different assembly, not a patch — see
-[Roofing and Weatherproofing](../building/40-roofing.md) for insulated
+[Roofing and Weatherproofing](../building/structure/40-roofing.md) for insulated
 cathedral ceilings.
 
 !!! tip "Icicles are a diagnostic, not just a nuisance"

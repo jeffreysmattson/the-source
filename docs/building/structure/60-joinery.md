@@ -149,7 +149,7 @@ a frame that stays tight and one that does not.
 It is also *faster* than boring straight through an assembled joint, because it
 removes the need to haul joints closed with cable pullers on raising day.
 
-![Drawbored mortise and tenon joint, before and after the peg is driven](images/drawbore-joint.svg){ width="860" }
+![Drawbored mortise and tenon joint, before and after the peg is driven](../images/drawbore-joint.svg){ width="860" }
 
 *The offset is what does the work: the peg cannot follow two misaligned holes,
 so the tapered point drags the tenon home. Offset shown exaggerated.*

@@ -13,6 +13,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+    - navigation.footer
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

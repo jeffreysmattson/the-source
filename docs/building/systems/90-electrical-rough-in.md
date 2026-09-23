@@ -93,7 +93,7 @@ else with a nameplate.
 
 Put the **heating system on its own clearly labeled circuit** and, in this
 climate, consider how it will be powered if the grid is down — see
-[Power](../power/index.md).
+[Power](../../power/index.md).
 
 ## Outlet placement
 
@@ -205,7 +205,7 @@ Support and protection, NEC 334.30 and 300.4:
 - Keep cable **out of the path of future fasteners** generally: not at the back
   of a shallow cabinet run, not directly behind where trim will be nailed.
 - Respect the **framing notch and bore limits** in
-  [Framing and Structural Basics](30-framing.md#drilling-and-notching-studs).
+  [Framing and Structural Basics](../structure/30-framing.md#drilling-and-notching-studs).
   Electrical is where studs get destroyed nearly as often as at plumbing.
 - Leave **6–8 in of free conductor** at each box, measured from where it emerges
   from the sheath, with at least 3 in outside the box opening.
@@ -235,7 +235,7 @@ apply, and the sealant used must be rated for the purpose.
 
 - The **grounding electrode system** typically comprises a concrete-encased
   electrode (rebar in the footing — plan this during
-  [Foundations](20-foundations.md), because it is nearly free then and expensive
+  [Foundations](../structure/20-foundations.md), because it is nearly free then and expensive
   later), ground rods, and the metal water service where present.
 - **A single rod, pipe, or plate electrode must be supplemented by a second
   electrode** unless it is shown to have a resistance to earth of 25 ohms or
@@ -253,7 +253,7 @@ If a generator or battery system may ever be connected, rough it in now: a
 **transfer switch or an interlock kit**, and a labeled inlet. A generator
 connected by backfeeding a dryer outlet energizes the utility line outside and
 can kill a lineworker; it is also illegal everywhere. See
-[Power](../power/index.md).
+[Power](../../power/index.md).
 
 ## Planning the rough-in
 
@@ -326,7 +326,7 @@ comes from somewhere else.
   systems) cover this territory, and it is worth reading them before designing a
   system rather than after.
 
-See [Power](../power/index.md) for generation and storage; this page is about
+See [Power](../../power/index.md) for generation and storage; this page is about
 the wiring in the walls.
 
 ## Regional assumptions

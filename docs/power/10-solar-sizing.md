@@ -256,7 +256,7 @@ necessarily designed for it, and makes winter snow-clearing and maintenance
 harder and more dangerous. Ground mounting is easier to angle steeply for
 winter production, easier and safer to clear and maintain, and needs its own
 footings — sized like any other structure and set below the local frost depth
-(see [Site Preparation](../building/10-site-preparation.md) for how to get that
+(see [Site Preparation](../building/site-prep/10-site-preparation.md) for how to get that
 number for your town) — plus more exposure to wind uplift.
 
 **Snow load on racking.** New Hampshire's ground snow loads are set town by

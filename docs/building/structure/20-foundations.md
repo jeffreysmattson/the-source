@@ -13,7 +13,7 @@ growing with enough force to lift a house. It needs three ingredients: freezing
 temperatures, frost-susceptible soil, and water. A foundation strategy works by
 removing at least one of them.
 
-This page assumes [Site Preparation](10-site-preparation.md) is done and you know
+This page assumes [Site Preparation](../site-prep/10-site-preparation.md) is done and you know
 your local frost depth, your soil, and where water goes.
 
 ## The three ways to satisfy frost
@@ -87,7 +87,7 @@ A common detail for a 4 to 5 inch slab is a perimeter edge thickened to roughly
 back up into the slab at about a 1:1 slope. Reinforcing runs continuously
 through the turndown.
 
-![Alaskan slab section with frost-protected shallow foundation insulation](images/alaskan-slab-section.svg){ width="820" }
+![Alaskan slab section with frost-protected shallow foundation insulation](../images/alaskan-slab-section.svg){ width="820" }
 
 *Monolithic slab with integral turndown footing, shown with the vertical and
 wing insulation that makes it a frost-protected shallow foundation. Not to

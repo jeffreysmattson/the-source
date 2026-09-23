@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 460" width="880" height="460" role="img" aria-labelledby="pst psd">
+  <title id="pst">Two ways to set a post-frame shed's structural posts</title>
+  <desc id="psd">Left: a post set directly in the ground, backfilled with tamped gravel or concrete below the frost line, with a knee brace tying the post to the beam it carries. Right: the same post carried instead on a galvanized post-base bracket sitting on a concrete pier, so the wood never contacts the soil. Not to scale.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 340 L380 340" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M500 340 L820 340" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- LEFT: post buried in ground -->
+    <path d="M60 400 L380 400" stroke="#a8b2c0" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <rect x="175" y="340" width="70" height="80" stroke="#f0a33c" stroke-width="2" stroke-dasharray="5 3"/>
+    <rect x="200" y="140" width="20" height="280" stroke="#8a95a6" stroke-width="2.5"/>
+    <rect x="160" y="120" width="100" height="18" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M210 210 L250 138" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M120 120 L210 62 L300 120" stroke="#8a95a6" stroke-width="2"/>
+
+    <!-- RIGHT: post on pier / bracket -->
+    <rect x="635" y="340" width="50" height="60" stroke="#8a95a6" stroke-width="2.5"/>
+    <rect x="650" y="140" width="20" height="190" stroke="#8a95a6" stroke-width="2.5"/>
+    <rect x="645" y="325" width="30" height="15" stroke="#f0a33c" stroke-width="2.5"/>
+    <rect x="610" y="120" width="100" height="18" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M660 210 L700 138" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M570 120 L660 62 L750 120" stroke="#8a95a6" stroke-width="2"/>
+
+    <g stroke="#a8b2c0" stroke-width="1.5">
+      <path d="M262 130 L300 108"/>
+      <path d="M252 175 L290 190"/>
+      <path d="M698 333 L678 332"/>
+      <path d="M220 262 L258 257"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="210" y="40" text-anchor="middle" font-size="14">Post set in ground</text>
+    <text x="660" y="40" text-anchor="middle" font-size="14">Post on pier / bracket above grade</text>
+
+    <text x="45" y="393" font-size="11">Frost depth —</text>
+    <text x="45" y="407" font-size="11">verify locally</text>
+
+    <text x="253" y="360" font-size="12">Tamped gravel or</text>
+    <text x="253" y="375" font-size="12">concrete backfill,</text>
+    <text x="253" y="390" font-size="12">bearing below frost</text>
+
+    <text x="304" y="106" font-size="12">Beam (girt)</text>
+    <text x="294" y="196" font-size="12">Knee brace</text>
+
+    <text x="700" y="332" font-size="11">Galvanized post base —</text>
+    <text x="700" y="346" font-size="11">wood never touches soil</text>
+
+    <text x="210" y="445" text-anchor="middle" font-size="12.5">Post set directly in the ground. Not to scale.</text>
+    <text x="660" y="445" text-anchor="middle" font-size="12.5">Post on a pier or bracket above grade. Not to scale.</text>
+
+    <text x="263" y="254" fill="#f0a33c" font-size="12">Post — UC4B</text>
+    <text x="263" y="269" fill="#f0a33c" font-size="12">ground-contact rated</text>
+  </g>
+</svg>

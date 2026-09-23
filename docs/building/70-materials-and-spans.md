@@ -3,7 +3,7 @@
 ## Summary
 
 This is the lookup page: the numbers you need at the lumberyard and on the
-framing floor. [Framing and Structural Basics](30-framing.md) explains how the
+framing floor. [Framing and Structural Basics]structure/30-framing.md) explains how the
 structure works and why; this page holds the dimensions, the grades, the
 fastener sizes, and the span tables.
 
@@ -240,7 +240,7 @@ Three notes from the table's own footnotes:
 ## Lumber dimensions
 
 Nominal-versus-actual sizes for dimension lumber are in
-[Framing and Structural Basics](30-framing.md#nominal-size-is-not-actual-size).
+[Framing and Structural Basics]structure/30-framing.md#nominal-size-is-not-actual-size).
 Beyond that:
 
 | Category | Note |
@@ -313,11 +313,11 @@ length and diameter.
 
 For how much a nail actually holds, and why threaded shanks and clinching matter
 so much in wet-and-dry service, see
-[Joinery and Fastening Without Power Tools](60-joinery.md#nails-and-other-metal).
+[Joinery and Fastening Without Power Tools]structure/60-joinery.md#nails-and-other-metal).
 
 The required nail for each framing connection is IRC **Table R602.3(1)**, the
 fastener schedule, discussed in
-[Framing and Structural Basics](30-framing.md#nailing).
+[Framing and Structural Basics]structure/30-framing.md#nailing).
 
 ## Preservative-treated wood
 

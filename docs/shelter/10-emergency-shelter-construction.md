@@ -70,7 +70,7 @@ small window, away from the exterior walls that lose heat fastest.
 ### 2. Site selection
 
 Apply the same logic used for siting a building (see
-[Site Preparation](../building/10-site-preparation.md)) at a much smaller
+[Site Preparation](../building/site-prep/10-site-preparation.md)) at a much smaller
 scale and on a much faster timeline.
 
 - **Avoid low ground** — ravines, narrow valleys, streambeds. Cold air is

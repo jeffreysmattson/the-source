@@ -12,7 +12,7 @@ roof off, wind and seismic forces trying to push the building sideways into a
 parallelogram, and — in this climate — a roof load of snow that can exceed the
 weight of the building materials beneath it.
 
-This page assumes the work in [Site Preparation](10-site-preparation.md) and
+This page assumes the work in [Site Preparation](../site-prep/10-site-preparation.md) and
 [Foundations](20-foundations.md) is done. It covers platform framing in
 dimensional lumber, which is what nearly every house and outbuilding in the
 Northeast is built from.
@@ -27,7 +27,7 @@ Northeast is built from.
 
 ## The load path
 
-![Section through a platform frame showing the load path and rafter thrust](images/platform-frame-load-path.svg){ width="820" }
+![Section through a platform frame showing the load path and rafter thrust](../images/platform-frame-load-path.svg){ width="820" }
 
 *Gravity load travels from the roof sheathing into the rafters, down the walls,
 through the floor framing into the foundation, and out into the soil. The
@@ -174,7 +174,7 @@ open one up:
 
 ### Anatomy of a framed wall
 
-![Elevation of a framed wall with a rough opening](images/wall-opening-framing.svg){ width="820" }
+![Elevation of a framed wall with a rough opening](../images/wall-opening-framing.svg){ width="820" }
 
 *The members around an opening. King studs run full height; jack (trimmer)
 studs are cut to fit under the header and are what actually carries it to the
@@ -575,7 +575,7 @@ Everything above can be built without electricity. It is slower, not harder.
   gauges is accurate and needs no arithmetic.
 - **A sharp handsaw** — 8 points per inch crosscut for framing — cuts a 2×10
   about as fast as you can set up a circular saw, once. Sharpening and setting
-  a saw is a skill worth having; see [Tools](../tools/index.md).
+  a saw is a skill worth having; see [Tools](../../tools/index.md).
 - **A brace and auger bits** bore plates and joists cleanly. Ship auger bits
   pull themselves through.
 - **A water level** — a clear hose full of water — transfers a level mark around

@@ -150,7 +150,7 @@ Two notes on the detail:
   slope. **The 2024 IRC removed that provision.** Which applies to you depends
   on the code edition your jurisdiction has adopted, so ask.
 
-![Eave detail showing ice barrier extent, drip edge, vent channel, and the heat path that causes ice dams](images/eave-ice-dam-detail.svg){ width="860" }
+![Eave detail showing ice barrier extent, drip edge, vent channel, and the heat path that causes ice dams](../images/eave-ice-dam-detail.svg){ width="860" }
 
 *The membrane is the backstop, not the fix. Air sealing the ceiling plane and
 carrying insulation at full depth over the top plate are what stop the melting
