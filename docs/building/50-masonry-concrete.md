@@ -267,6 +267,78 @@ For historic soft brick and lime-mortared stone, use **lime mortar or a natural
 hydraulic lime**, matched to the original. ASTM C1713 covers mortars for repair
 of historic masonry.
 
+### Repointing old brick
+
+Repointing replaces failed joint mortar without disturbing the brick. The
+brick is supposed to outlast several rounds of repointing; done with the wrong
+mortar or technique, repointing instead destroys the brick faster than leaving
+a failing joint alone.
+
+**Diagnose before mixing.** Determine what is already there before choosing a
+replacement.
+
+- Pre-1900s New England brick and stone is generally soft, low-fired, and
+  originally laid in straight lime mortar. Mid-20th-century-and-later brick is
+  typically laid in a portland-lime mortar and is considerably harder.
+- **Scratch test**: if the existing mortar can be scored with a fingernail or a
+  knife point and is visibly softer than the brick, it is a lime-based system.
+  Match it with lime or a natural hydraulic lime — never portland, Type N, or
+  anything stronger. See *Mortar must be weaker than the unit*, above.
+- When in doubt, test a proposed mix in a small, inconspicuous area and let it
+  cure fully before committing the whole wall. A mortar-analysis lab can
+  identify the original binder and sand precisely if the building warrants it.
+
+**Remove the old mortar properly.**
+
+- Rake out to a depth of at least 2 to 2½ times the joint width, or until sound
+  mortar is reached — commonly ¾ to 1 in for a standard ⅜ in joint.
+- Remove with a joint chisel and mash hammer or a hand raking tool.
+  **Do not grind out joints on soft historic brick.** A grinder cuts a wide,
+  straight-sided kerf that oversizes the joint and routinely nicks the brick
+  arrises, which then spall under freeze-thaw. Grinding is acceptable only on
+  hard modern brick in hard mortar, and even then the corners should be
+  finished by hand so the chisel, not the wheel, defines the joint edge.
+- Brush and flush the raked joint clean. Mortar will not bond to a dust-coated
+  surface.
+
+**Match the mortar to what is there.**
+
+- Soft historic brick or lime-mortared stone: straight lime putty mortar, or a
+  natural hydraulic lime (NHL 2 or NHL 3.5). Never straight portland cement.
+  ASTM C1713 covers mortars for repair of historic masonry.
+- Sound 20th-century brick laid in portland-lime mortar: Type O or Type N,
+  matched to the original — repointing should never introduce a mortar harder
+  than the one it replaces, even where the original is already portland-based.
+- Match sand color and gradation as closely as the original allows; the sand,
+  more than the binder, determines whether the repair reads as invisible or as
+  a patch. Mix a small test panel, let it cure and dry fully, and check the
+  match in daylight — mortar is noticeably darker wet than cured.
+
+**Pack and tool in stages.**
+
+- Dampen the joint faces and surrounding brick before packing, enough to
+  control suction without leaving standing water. A dry, thirsty brick pulls
+  water out of the fresh mortar before it can set, and the joint never
+  develops bond — the same failure described under *Mixing and using mortar*.
+- Pack in thin layers, ¼ in or less, letting each layer stiffen to
+  thumbprint-hard before adding the next. Filling a deep joint in one lift
+  traps air and shrinks unevenly, leaving a joint that looks solid but is not
+  bonded to the brick.
+- Tool to a **concave joint** matching the original profile once
+  thumbprint-hard, to compact the surface and shed water. Match the original
+  joint profile — a flush or raked joint on brick originally struck concave
+  both looks wrong and performs worse in this climate.
+
+**Cure it like the wall depends on it, because it does.**
+
+- Lime mortar sets by carbonation, not hydraulic reaction, and needs weeks of
+  protection, not days: keep it damp by misting and shaded from direct sun and
+  wind for the first several days.
+- Protect fresh repointing from rain for at least 24–48 hours and from
+  freezing for the entire first season. This is the practical reason late-fall
+  repointing in this climate is poor timing — the work will not have enough
+  warm weeks left to carbonate before frost.
+
 ### Mixing and using mortar
 
 - **Measure by volume.** A shovel is not a unit of measure; use a box or a
@@ -422,6 +494,7 @@ whole game.
 - [2021 IRC R402.2, Concrete](https://codes.iccsafe.org/s/IRC2021P3/chapter-4-foundations/IRC2021P3-Pt03-Ch04-SecR402.2) and [Table R402.2 as reproduced in Minnesota Rules 1309.0402](https://www.revisor.mn.gov/rules/pdf/1309.0402/2015-01-26%2011:23:39+00:00) — minimum specified compressive strength by weathering potential, the 5–7% air entrainment footnote, the 3% / 4,000 psi steel-troweled garage floor exception, and an example of state amendment
 - [Brick Industry Association, *Technical Note 8B: Mortars for Brickwork — Selection and Quality Assurance*](https://www.gobrick.com/media/file/8b-tn-8b-2020-03.pdf) — select the lowest-strength mortar that meets requirements, the recommendations-by-use table, Type N for normal use, initial rate of absorption, and the lime range within Type N
 - [ASTM C270, *Standard Specification for Mortar for Unit Masonry*](https://www.astm.org/c0270-19ae01.html) — the four types, the proportion and property specifications
+- [National Park Service, *Preservation Brief 2: Repointing Mortar Joints in Historic Masonry Buildings*](https://www.nps.gov/orgs/1739/upload/preservation-brief-02-repointing.pdf) — diagnosing original mortar, raking depth and technique, why grinding damages soft brick, sand matching, and lime mortar curing
 - [Froehling & Robertson, *Quality Masonry Mortar According to ASTM C270*](https://www.fandr.com/quality-masonry-mortar-according-to-astm-c270/) — minimum compressive strengths by type, and the difference between proportion and property specification
 - [ACI 306.1, *Standard Specification for Cold Weather Concreting*](https://www.concrete.org/store/productdetail.aspx?ItemID=30610) and [NRMCA / Euclid Chemical, *Cold Weather Concrete Practices*](https://www.nahb.org/-/media/NAHB/nahb-community/docs/councils/bsc/cold-weather-concrete-practices.pdf) — placement temperature by section size, the 500 psi threshold before freezing, the 40 °F hydration cutoff, the 20 °F setting-time rule, and accelerator guidance
 - [NRMCA, *Concrete in Practice* series](https://www.nrmca.org/association-resources/research-and-engineering/cip/) — CIP 11 curing, CIP 14 finishing flatwork, CIP 27 cold weather concreting; short authoritative sheets on most of the practices above

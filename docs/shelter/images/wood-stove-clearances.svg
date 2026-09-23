@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" width="960" height="460" role="img" aria-labelledby="wst wsd">
+  <title id="wst">Wood stove clearance zones and chimney termination</title>
+  <desc id="wsd">Left: plan view of an unlisted radiant stove showing the 36 inch default clearance to an unprotected combustible wall, reducible to 12 inches with a listed ventilated wall shield, and a floor protection footprint that extends beyond the stove on every side. Right: elevation of a chimney passing through a sloped roof, showing the code minimum termination height — at least 3 feet above the roof penetration and at least 2 feet higher than any part of the roof within 10 feet horizontally. Not to scale.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- LEFT: plan view -->
+    <rect x="30" y="40" width="330" height="14" stroke="#8a95a6" stroke-width="3"/>
+    <rect x="140" y="112" width="130" height="110" stroke="#a8b2c0" stroke-width="2" stroke-dasharray="6 4"/>
+    <rect x="160" y="130" width="90" height="70" stroke="#8a95a6" stroke-width="3"/>
+    <circle cx="205" cy="130" r="8" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- rear clearance dimension -->
+    <path d="M290 54 L290 130" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M278 54 L302 54" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M278 130 L302 130" stroke="#f0a33c" stroke-width="2"/>
+
+    <!-- side clearance dimensions -->
+    <path d="M60 165 L140 165" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M60 153 L60 177" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M140 153 L140 177" stroke="#f0a33c" stroke-width="2"/>
+
+    <path d="M270 165 L350 165" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M270 153 L270 177" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M350 153 L350 177" stroke="#f0a33c" stroke-width="2"/>
+
+    <!-- RIGHT: chimney elevation -->
+    <path d="M520 380 L860 180" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M860 180 L930 260" stroke="#8a95a6" stroke-width="4"/>
+    <rect x="630" y="140" width="40" height="164" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M628 140 L672 140" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- 3 ft dimension -->
+    <path d="M605 140 L605 304" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M593 140 L617 140" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M593 304 L617 304" stroke="#f0a33c" stroke-width="2"/>
+
+    <!-- 2 ft dimension, at the ridge -->
+    <path d="M860 140 L860 180" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M847 140 L873 140" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M847 180 L873 180" stroke="#f0a33c" stroke-width="2"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="32" y="30">Combustible wall</text>
+    <text x="205" y="168" text-anchor="middle">Stove</text>
+    <text x="205" y="183" text-anchor="middle" font-size="11">(radiant, unlisted)</text>
+
+    <text x="308" y="80" fill="#f0a33c">36 in min, unprotected</text>
+    <text x="308" y="98" fill="#f0a33c" font-size="12">wall (NFPA 211 Table 1)</text>
+    <text x="308" y="118" font-size="12">12 in min with a listed</text>
+    <text x="308" y="134" font-size="12">ventilated wall shield</text>
+
+    <text x="100" y="200" text-anchor="middle" fill="#f0a33c" font-size="12">Side clearance</text>
+    <text x="310" y="200" text-anchor="middle" font-size="11">(both sides,</text>
+    <text x="310" y="213" text-anchor="middle" font-size="11">same rule)</text>
+
+    <text x="145" y="245" font-size="12">Floor protection extends beyond the</text>
+    <text x="145" y="260" font-size="12">stove on every side — dimension set</text>
+    <text x="145" y="275" font-size="12">by leg height and the stove's listing</text>
+
+    <text x="205" y="305" text-anchor="middle" font-size="12.5">Plan view — unlisted radiant stove. Not to scale.</text>
+
+    <text x="650" y="128" text-anchor="middle">Chimney</text>
+    <text x="590" y="200" text-anchor="end" fill="#f0a33c">3 ft min above</text>
+    <text x="590" y="215" text-anchor="end" fill="#f0a33c">roof penetration</text>
+
+    <text x="860" y="108" text-anchor="middle" fill="#f0a33c" font-size="11">2 ft min higher</text>
+    <text x="860" y="121" text-anchor="middle" fill="#f0a33c" font-size="11">than any point</text>
+    <text x="860" y="134" text-anchor="middle" fill="#f0a33c" font-size="11">within 10 ft</text>
+
+    <text x="725" y="425" text-anchor="middle" font-size="12.5">Chimney termination ("3-2-10" rule). IRC R1003.9 / NFPA 211 §9.3. Not to scale.</text>
+  </g>
+</svg>
