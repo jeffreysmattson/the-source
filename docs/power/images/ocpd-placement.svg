@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320" role="img" aria-labelledby="opd ods">
+  <title id="opd">Overcurrent protection placement — the 7-inch rule</title>
+  <desc id="ods">A battery bank on the left with a single conductor leaving its positive terminal. A fuse or breaker sits within 7 inches of the terminal, measured along the conductor; the short segment between terminal and fuse is highlighted as the unprotected part. Annotation explains that if the conductor then runs inside an enclosure for the rest of its length, ABYC E-11 practice extends the allowance to 40 inches, or 72 inches for a run leaving the battery directly.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- battery -->
+    <rect x="40" y="100" width="110" height="120" stroke="#a8b2c0" stroke-width="3"/>
+    <rect x="148" y="152" width="12" height="16" fill="#a8b2c0" stroke="none"/>
+
+    <!-- conductor -->
+    <path d="M160 160 L900 160" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M160 160 L230 160" stroke="#f0a33c" stroke-width="7" opacity="0.3"/>
+
+    <!-- fuse block -->
+    <rect x="230" y="140" width="50" height="40" stroke="#f0a33c" stroke-width="2.5"/>
+    <path d="M230 160 L280 160" stroke="#f0a33c" stroke-width="2.5"/>
+
+    <!-- dimension: terminal to fuse -->
+    <path d="M160 202 L160 218" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M230 202 L230 218" stroke="#f0a33c" stroke-width="2"/>
+    <path d="M160 210 L230 210" stroke="#f0a33c" stroke-width="2"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="40" y="40" font-size="14">Overcurrent protection placement — the 7-inch rule</text>
+
+    <text x="95" y="165" text-anchor="middle">Battery bank</text>
+    <text x="255" y="122" text-anchor="middle" fill="#f0a33c" font-size="12">Fuse or breaker</text>
+    <text x="195" y="192" text-anchor="middle" fill="#f0a33c" font-size="11">unprotected segment</text>
+
+    <text x="195" y="242" text-anchor="middle" fill="#f0a33c" font-size="13">≤ 7 in</text>
+    <text x="195" y="260" text-anchor="middle" font-size="11">(measured along the conductor)</text>
+
+    <text x="330" y="140" font-size="12">If the conductor then runs inside an</text>
+    <text x="330" y="156" font-size="12">enclosure (conduit, junction box, panel) for</text>
+    <text x="330" y="172" font-size="12">the rest of its length, ABYC E-11 practice</text>
+    <text x="330" y="188" font-size="12">extends the allowance to 40 in — or 72 in</text>
+    <text x="330" y="204" font-size="12">for a run leaving the battery directly.</text>
+
+    <text x="480" y="296" text-anchor="middle" font-size="12.5">The fuse protects the wire on its load side — the short segment between terminal and fuse is the part nothing else covers.</text>
+  </g>
+</svg>

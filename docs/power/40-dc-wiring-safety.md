@@ -32,6 +32,20 @@ concepts; come back to the tables when you're sizing an actual run.
     where one is required. Follow your local electrical code and, for
     anything permitted or grid-interactive, use a licensed electrician.
 
+## A typical off-grid DC system
+
+![Single-line diagram of a typical off-grid DC system](images/dc-system-layout.svg){ width="960" }
+
+A small off-grid installation carries more overcurrent protection than it first looks like, because there are **two independent energy sources** (the array and the battery bank) feeding **multiple load paths** (DC loads directly, AC loads through the inverter). The diagram above is a single-line drawing — every line represents a pair of conductors (+ and −).
+
+Reading left to right, the protection points are:
+
+- **PV OCPD / disconnect.** The array can produce current whenever there is light, including when everything else is off. A PV disconnect (required by NEC 690.11 for safe shutdown) plus a fuse where the code requires one on the module conductors (NEC 690.9 — typically when parallel strings push conductor current above its ampacity) sit between the array and the charge controller.
+- **Main battery fuse.** The single most important protection point in the system. It sits as close to the battery terminal as the placement rule allows (see below), is sized to the battery-cable ampacity, and covers the heavy cable run from the bank to the distribution point or inverter. A dropped wrench across those terminals is a thousands-of-amps event; this fuse is what makes it survivable.
+- **Load breakers.** Each DC load circuit gets its own breaker at the distribution point, sized to *that circuit's* wire. This protects the load-side wire and gives you a serviceable disconnect per load without touching the main fuse.
+
+The governing principle: **every segment of wire is protected by the nearest upstream device sized for that wire.** Protection cascades from source outward — the main fuse covers the big cable, each branch breaker covers its own run. If any segment of wire has no upstream device rated at or below its ampacity, that segment is unprotected, and a fault there is limited only by what the source can deliver.
+
 ## Quick reference
 
 ### Wire ampacity by size (copper)
@@ -115,6 +129,18 @@ and distance halves the current for the same power, which roughly halves the
 required wire size — one practical reason higher-voltage battery banks are
 easier to wire economically.
 
+The same calculation across system voltages makes the trade concrete. Required gauge for a **25 ft one-way run (50 ft round trip) at a 3% drop limit**, copper — in every cell the voltage-drop answer is at least as large as the ampacity answer from the table above, which is exactly why drop governs:
+
+| Load current | 12 V | 24 V | 48 V |
+|---|---|---|---|
+| 10 A | 8 AWG | 10 AWG | 14 AWG |
+| 20 A | 4 AWG | 8 AWG | 10 AWG |
+| 30 A | 2 AWG | 6 AWG | 8 AWG |
+| 50 A | 1/0 | 4 AWG | 6 AWG |
+| 100 A | 3/0 | 1/0 | 4 AWG |
+
+For the same power, a 48 V system needs roughly three to four gauge sizes less wire than a 12 V system — and cable cost scales with cross-sectional area, so this is usually the dominant hardware-cost difference between low- and high-voltage battery banks. (Re-run both checks for your actual run length and drop limit; these numbers are the worked case, not a universal table.)
+
 For a second-opinion check, NEC Chapter 9 Table 8 gives DC resistance per
 1,000 ft for uncoated copper (approximately 1.21 Ω/kft for 10 AWG, 0.308
 Ω/kft for 4 AWG); multiplying resistance by round-trip length and by current
@@ -153,6 +179,8 @@ reported across ABYC-based marine and off-grid electrical references):
   continuously, and high enough to clear the load's actual current without
   nuisance tripping.
 
+![Overcurrent protection placement — the 7-inch rule](images/ocpd-placement.svg){ width="960" }
+
 ### Polarity marking and color
 
 | Convention | Rule |
@@ -189,6 +217,8 @@ reported across ABYC-based marine and off-grid electrical references):
     Only use switches, breakers, disconnects, and fuses that carry an
     explicit DC voltage and current rating for the circuit you're
     protecting.
+
+![Why DC arcs sustain while AC arcs self-extinguish](images/dc-vs-ac-arc.svg){ width="960" }
 
 The same physics is why DC arc flash and DC arc-fault behavior differ from
 AC — an arc across DC battery terminals or a failed DC connector can sustain
@@ -368,6 +398,42 @@ electrical fires in battery-based systems.
   you might expect from household wiring — see the arcing discussion above.
   This is the underlying reason for DC-rated switchgear, correct fusing, and
   not defeating a fuse or breaker "just to get past a nuisance trip."
+
+### Common mistakes that start fires and injuries
+
+The failure patterns below are the ones that actually show up in damaged
+installations — each maps to a rule on this page:
+
+- **Sizing 12 V wire by ampacity alone.** A 12 AWG "20 amp" wire running a
+  20 A load for 25 ft drops ~4% and runs hot; the voltage-drop answer (4 AWG)
+  is the correct one. Ampacity-only sizing is the single most common wiring
+  error at low voltage.
+- **Using AC-only breakers or switches on DC circuits.** They may hold the
+  voltage rating on paper but lack the contact gap and arc-quenching design,
+  so they can weld shut mid-open while arcing — an ignition source exactly
+  when you're trying to de-energize.
+- **Unmating MC4 connectors under load, or mixing connector brands.** A live
+  PV circuit disconnected at the connector draws a sustained DC arc across
+  the pins; mismatched brands may not fully lock and can arc under normal
+  operation.
+- **Omitting the main battery fuse — or placing it at the panel instead of
+  the battery.** The whole point is that the short segment between terminal
+  and fuse is the only unprotected part; moving the fuse to the panel makes
+  the entire battery cable unprotected against a terminal short.
+- **White wire as negative on an ungrounded system.** It breaks the one
+  universal DC convention (white/gray = grounded conductor only) and will
+  mislead the next person who works on the system, possibly you.
+- **Solder-only lugs, or lugs crimped with the wrong die.** Both produce a
+  connection whose resistance creeps up over time — heat at a point you can't
+  see until it's too late.
+- **"Upgrading" a blown fuse to a bigger rating to get past a nuisance trip.**
+  The fuse was sized for the wire; a bigger one removes the wire's protection.
+  Find and fix the actual fault, or upsizing the *wire and* the protection
+  together as an intentional design change.
+- **Torquing by feel instead of the terminal's published spec.**
+  Under-torqued connections loosen with thermal cycling; over-torqued ones
+  deform lugs and strip threads. The number is connection-specific — it's on
+  the terminal or lug documentation, not a universal constant.
 
 ## Sources
 

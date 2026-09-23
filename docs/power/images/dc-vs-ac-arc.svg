@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" role="img" aria-labelledby="ada dds">
+  <title id="ada">Why DC arcs sustain while AC arcs self-extinguish</title>
+  <desc id="dds">Left panel: an AC waveform crossing zero every half-cycle, with open switch contacts showing only a brief spark that dies at the next zero crossing. Right panel: a flat DC current that never crosses zero, with open switch contacts across which a sustained arc persists because the source continuously drives current through the ionized path.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- LEFT: AC waveform -->
+    <path d="M50 150 L450 150" stroke="#a8b2c0" stroke-width="1.5"/>
+    <path d="M50,150.0 L52,142.5 L54,135.1 L56,127.9 L58,121.1 L60,114.7 L62,108.9 L64,103.8 L66,99.3 L68,95.7 L70,92.9 L72,91.1 L74,90.1 L76,90.1 L78,91.1 L80,92.9 L82,95.7 L84,99.3 L86,103.8 L88,108.9 L90,114.7 L92,121.1 L94,127.9 L96,135.1 L98,142.5 L100,150.0 L102,157.5 L104,164.9 L106,172.1 L108,178.9 L110,185.3 L112,191.1 L114,196.2 L116,200.7 L118,204.3 L120,207.1 L122,208.9 L124,209.9 L126,209.9 L128,208.9 L130,207.1 L132,204.3 L134,200.7 L136,196.2 L138,191.1 L140,185.3 L142,178.9 L144,172.1 L146,164.9 L148,157.5 L150,150.0 L152,142.5 L154,135.1 L156,127.9 L158,121.1 L160,114.7 L162,108.9 L164,103.8 L166,99.3 L168,95.7 L170,92.9 L172,91.1 L174,90.1 L176,90.1 L178,91.1 L180,92.9 L182,95.7 L184,99.3 L186,103.8 L188,108.9 L190,114.7 L192,121.1 L194,127.9 L196,135.1 L198,142.5 L200,150.0 L202,157.5 L204,164.9 L206,172.1 L208,178.9 L210,185.3 L212,191.1 L214,196.2 L216,200.7 L218,204.3 L220,207.1 L222,208.9 L224,209.9 L226,209.9 L228,208.9 L230,207.1 L232,204.3 L234,200.7 L236,196.2 L238,191.1 L240,185.3 L242,178.9 L244,172.1 L246,164.9 L248,157.5 L250,150.0 L252,142.5 L254,135.1 L256,127.9 L258,121.1 L260,114.7 L262,108.9 L264,103.8 L266,99.3 L268,95.7 L270,92.9 L272,91.1 L274,90.1 L276,90.1 L278,91.1 L280,92.9 L282,95.7 L284,99.3 L286,103.8 L288,108.9 L290,114.7 L292,121.1 L294,127.9 L296,135.1 L298,142.5 L300,150.0 L302,157.5 L304,164.9 L306,172.1 L308,178.9 L310,185.3 L312,191.1 L314,196.2 L316,200.7 L318,204.3 L320,207.1 L322,208.9 L324,209.9 L326,209.9 L328,208.9 L330,207.1 L332,204.3 L334,200.7 L336,196.2 L338,191.1 L340,185.3 L342,178.9 L344,172.1 L346,164.9 L348,157.5 L350,150.0 L352,142.5 L354,135.1 L356,127.9 L358,121.1 L360,114.7 L362,108.9 L364,103.8 L366,99.3 L368,95.7 L370,92.9 L372,91.1 L374,90.1 L376,90.1 L378,91.1 L380,92.9 L382,95.7 L384,99.3 L386,103.8 L388,108.9 L390,114.7 L392,121.1 L394,127.9 L396,135.1 L398,142.5 L400,150.0 L402,157.5 L404,164.9 L406,172.1 L408,178.9 L410,185.3 L412,191.1 L414,196.2 L416,200.7 L418,204.3 L420,207.1 L422,208.9 L424,209.9 L426,209.9 L428,208.9 L430,207.1 L432,204.3 L434,200.7 L436,196.2 L438,191.1 L440,185.3 L442,178.9 L444,172.1 L446,164.9 L448,157.5 L450,150.0" stroke="#8a95a6" stroke-width="3"/>
+    <circle cx="50" cy="150" r="4" fill="#f0a33c" stroke="none"/>
+    <circle cx="150" cy="150" r="4" fill="#f0a33c" stroke="none"/>
+    <circle cx="250" cy="150" r="4" fill="#f0a33c" stroke="none"/>
+    <circle cx="350" cy="150" r="4" fill="#f0a33c" stroke="none"/>
+    <circle cx="450" cy="150" r="4" fill="#f0a33c" stroke="none"/>
+
+    <!-- LEFT: switch with brief spark -->
+    <path d="M50 330 L140 330" stroke="#8a95a6" stroke-width="3"/>
+    <rect x="140" y="326" width="64" height="8" fill="#a8b2c0" stroke="none"/>
+    <rect x="256" y="326" width="64" height="8" fill="#a8b2c0" stroke="none"/>
+    <path d="M320 330 L450 330" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M206 330 L214 321 L222 337 L230 323 L238 335 L246 326 L254 330" stroke="#f0a33c" stroke-width="2"/>
+
+    <!-- RIGHT: DC waveform -->
+    <path d="M530 170 L930 170" stroke="#a8b2c0" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <path d="M530 110 L930 110" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- RIGHT: switch with sustained arc -->
+    <path d="M530 330 L620 330" stroke="#8a95a6" stroke-width="3"/>
+    <rect x="620" y="326" width="64" height="8" fill="#a8b2c0" stroke="none"/>
+    <rect x="736" y="326" width="64" height="8" fill="#a8b2c0" stroke="none"/>
+    <path d="M800 330 L930 330" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M684 330 C692 316 700 344 710 326 C718 312 726 342 736 330" stroke="#f0a33c" stroke-width="7" opacity="0.25"/>
+    <path d="M684 330 C692 316 700 344 710 326 C718 312 726 342 736 330" stroke="#f0a33c" stroke-width="2.5"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="40" y="34" font-size="14">AC — e.g. 120 V household</text>
+    <text x="520" y="34" font-size="14">DC — e.g. 12–48 V battery system</text>
+
+    <text x="250" y="245" text-anchor="middle" font-size="12">current crosses zero every half-cycle</text>
+    <text x="230" y="300" text-anchor="middle" fill="#f0a33c" font-size="12">brief spark — self-extinguishes</text>
+    <text x="250" y="385" text-anchor="middle" font-size="12">Arc dies: driving voltage passes through</text>
+    <text x="250" y="401" text-anchor="middle" font-size="12">zero 120×/s and the arc fails to re-strike</text>
+
+    <text x="730" y="92" text-anchor="middle" font-size="12">constant — never crosses zero</text>
+    <text x="530" y="192" font-size="11">zero</text>
+    <text x="710" y="296" text-anchor="middle" fill="#f0a33c" font-size="12">sustained arc</text>
+    <text x="710" y="312" text-anchor="middle" font-size="11">source keeps driving current through it</text>
+    <text x="730" y="385" text-anchor="middle" font-size="12">No zero crossing — the arc persists until</text>
+    <text x="730" y="401" text-anchor="middle" font-size="12">something actively forces it out</text>
+  </g>
+</svg>
