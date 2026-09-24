@@ -20,6 +20,8 @@ limited to them — any reference material worth keeping locally belongs here.
 - [Medical](medical/index.md) — first aid, wound care, medication, sanitation
 - [Power](power/index.md) — generation, batteries, wiring, fuel
 - [Tools](tools/index.md) — hand tools, fabrication, maintenance, salvage
+- [Communications](communications/index.md) — ham radio, GMRS, and staying in
+  contact off-grid
 
 New sections are just new folders in `docs/` — they appear in the navigation
 automatically, with no configuration change. Within a section, filenames carry a
