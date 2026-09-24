@@ -1,0 +1,223 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="960" height="520" role="img" aria-labelledby="bsp-title bsp-desc">
+  <title id="bsp-title">Battery series and parallel wiring diagrams</title>
+  <desc id="bsp-desc">Left panel: two 12 V 100 Ah batteries wired in series — positive terminal of battery 1 connects to negative terminal of battery 2, yielding 24 V 100 Ah at the outer terminals. Right panel: two 12 V 100 Ah batteries wired in parallel — both positive terminals join at a positive bus, both negative terminals join at a negative bus, yielding 12 V 200 Ah. Center panel: a 2-series × 2-parallel bank combining both methods for 24 V 200 Ah.</desc>
+
+  <!-- ===================== BACKGROUND PANELS ===================== -->
+  <rect x="10" y="60" width="290" height="290" rx="8" fill="#1e2530" stroke="#3a4555" stroke-width="1.5"/>
+  <rect x="335" y="60" width="290" height="290" rx="8" fill="#1e2530" stroke="#3a4555" stroke-width="1.5"/>
+  <rect x="660" y="60" width="290" height="290" rx="8" fill="#1e2530" stroke="#3a4555" stroke-width="1.5"/>
+
+  <!-- ===================== PANEL TITLES ===================== -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="600" fill="#c8d0dc" text-anchor="middle">
+    <text x="155" y="44">Series</text>
+    <text x="480" y="44">Parallel</text>
+    <text x="805" y="44">Series + Parallel</text>
+  </g>
+
+  <!-- ===================== BATTERY SYMBOL HELPER NOTE ===================== -->
+  <!-- Each battery drawn as a rectangle with +/− labels and internal cell lines -->
+
+  <!-- ====================================================== -->
+  <!-- PANEL 1: SERIES — two batteries stacked vertically     -->
+  <!-- Bat A: top,  Bat B: bottom                             -->
+  <!-- Wire: BatA− → BatB+, outer terminals are BatA+ and BatB− -->
+  <!-- ====================================================== -->
+
+  <!-- Battery A (top) -->
+  <rect x="75" y="100" width="160" height="80" rx="5" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <!-- cell lines -->
+  <line x1="130" y1="108" x2="130" y2="172" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <line x1="185" y1="108" x2="185" y2="172" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <!-- + terminal top-left, − terminal top-right (arbitrary; labeled) -->
+  <text x="90" y="148" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#5cb85c" text-anchor="middle">+</text>
+  <text x="220" y="148" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#d9534f" text-anchor="middle">−</text>
+  <!-- label -->
+  <text x="155" y="128" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#8a95a6" text-anchor="middle">Battery A</text>
+  <text x="155" y="144" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7f8b9c" text-anchor="middle">12 V · 100 Ah</text>
+
+  <!-- Battery B (bottom) -->
+  <rect x="75" y="230" width="160" height="80" rx="5" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="130" y1="238" x2="130" y2="302" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <line x1="185" y1="238" x2="185" y2="302" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <text x="90" y="278" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#5cb85c" text-anchor="middle">+</text>
+  <text x="220" y="278" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#d9534f" text-anchor="middle">−</text>
+  <text x="155" y="258" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#8a95a6" text-anchor="middle">Battery B</text>
+  <text x="155" y="274" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7f8b9c" text-anchor="middle">12 V · 100 Ah</text>
+
+  <!-- Series interconnect wire: BatA− (right, y=140) → BatB+ (left, y=270) -->
+  <!-- Route: from A− (220,140) right → (240,140) down → (240,270) left → B+ (90,270) -->
+  <polyline points="220,140 240,140 240,270 90,270" fill="none" stroke="#f0a33c" stroke-width="2.5" stroke-dasharray="6,3"/>
+  <!-- interconnect label -->
+  <text x="248" y="210" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#f0a33c">inter-</text>
+  <text x="248" y="222" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#f0a33c">connect</text>
+
+  <!-- Output leads — series output: BatA+ (left, 140) up and out; BatB− (right, 270) down and out -->
+  <!-- Positive output from A+ -->
+  <polyline points="90,140 55,140 55,400 105,400" fill="none" stroke="#5cb85c" stroke-width="2.5"/>
+  <!-- Negative output from B− -->
+  <polyline points="220,270 260,270 260,400 210,400" fill="none" stroke="#d9534f" stroke-width="2.5"/>
+  <!-- Output bus line -->
+  <line x1="105" y1="400" x2="210" y2="400" stroke="#8a95a6" stroke-width="2.5"/>
+  <!-- Arrow heads (output) -->
+  <polygon points="105,394 105,406 95,400" fill="#5cb85c"/>
+  <polygon points="210,394 210,406 220,400" fill="#d9534f"/>
+  <!-- Output label -->
+  <text x="155" y="392" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#c8d0dc" text-anchor="middle">Output</text>
+  <text x="155" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#6ec6f5" text-anchor="middle">24 V · 100 Ah</text>
+  <!-- + / − markers on output rail -->
+  <text x="88" y="398" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#5cb85c">+</text>
+  <text x="216" y="398" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#d9534f">−</text>
+
+  <!-- Rule callout -->
+  <text x="155" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Voltage adds · Ah unchanged</text>
+  <text x="155" y="462" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Connect: + → − → + → −</text>
+
+  <!-- ====================================================== -->
+  <!-- PANEL 2: PARALLEL — two batteries side by side         -->
+  <!-- Both + to positive bus, both − to negative bus         -->
+  <!-- ====================================================== -->
+
+  <!-- Battery C (left) -->
+  <rect x="355" y="145" width="110" height="140" rx="5" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="395" y1="153" x2="395" y2="277" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <!-- + on top, − on bottom -->
+  <text x="410" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#5cb85c" text-anchor="middle">+</text>
+  <text x="410" y="255" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#d9534f" text-anchor="middle">−</text>
+  <text x="410" y="173" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Bat C</text>
+  <text x="410" y="185" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#7f8b9c" text-anchor="middle">12 V·100 Ah</text>
+
+  <!-- Battery D (right) -->
+  <rect x="500" y="145" width="110" height="140" rx="5" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="540" y1="153" x2="540" y2="277" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <text x="555" y="195" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#5cb85c" text-anchor="middle">+</text>
+  <text x="555" y="255" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="700" fill="#d9534f" text-anchor="middle">−</text>
+  <text x="555" y="173" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Bat D</text>
+  <text x="555" y="185" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#7f8b9c" text-anchor="middle">12 V·100 Ah</text>
+
+  <!-- Positive bus (top) joining both + terminals -->
+  <!-- C+ is top of rect: (355+55, 145) = center top ~(410,145) -->
+  <!-- D+ is top of rect: (500+55, 145) = center top ~(555,145) -->
+  <line x1="410" y1="145" x2="410" y2="105" stroke="#5cb85c" stroke-width="2.5"/>
+  <line x1="555" y1="145" x2="555" y2="105" stroke="#5cb85c" stroke-width="2.5"/>
+  <line x1="400" y1="105" x2="565" y2="105" stroke="#5cb85c" stroke-width="2.5"/>
+  <text x="480" y="97" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#5cb85c" text-anchor="middle">+ bus</text>
+
+  <!-- Negative bus (bottom) -->
+  <line x1="410" y1="285" x2="410" y2="330" stroke="#d9534f" stroke-width="2.5"/>
+  <line x1="555" y1="285" x2="555" y2="330" stroke="#d9534f" stroke-width="2.5"/>
+  <line x1="400" y1="330" x2="565" y2="330" stroke="#d9534f" stroke-width="2.5"/>
+  <text x="480" y="348" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#d9534f" text-anchor="middle">− bus</text>
+
+  <!-- Output leads from bus to load -->
+  <line x1="480" y1="105" x2="480" y2="85" stroke="#5cb85c" stroke-width="2.5"/>
+  <line x1="480" y1="330" x2="480" y2="370" stroke="#d9534f" stroke-width="2.5"/>
+  <!-- Output label -->
+  <text x="480" y="400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#c8d0dc" text-anchor="middle">Output</text>
+  <text x="480" y="420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#6ec6f5" text-anchor="middle">12 V · 200 Ah</text>
+  <!-- dots at bus junctions -->
+  <circle cx="410" cy="105" r="4" fill="#5cb85c"/>
+  <circle cx="555" cy="105" r="4" fill="#5cb85c"/>
+  <circle cx="410" cy="330" r="4" fill="#d9534f"/>
+  <circle cx="555" cy="330" r="4" fill="#d9534f"/>
+
+  <!-- Rule callout -->
+  <text x="480" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Ah adds · Voltage unchanged</text>
+  <text x="480" y="462" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Connect: + to + and − to −</text>
+
+  <!-- ====================================================== -->
+  <!-- PANEL 3: SERIES + PARALLEL (2S2P)                      -->
+  <!-- String 1: BatE(12V)−series−BatF(12V) = 24V            -->
+  <!-- String 2: BatG(12V)−series−BatH(12V) = 24V            -->
+  <!-- Then both strings in parallel = 24V 200Ah              -->
+  <!-- Layout: 2 columns × 2 rows                             -->
+  <!-- E(top-left), F(bottom-left), G(top-right), H(bottom-right) -->
+  <!-- ====================================================== -->
+
+  <!-- Battery E (top-left of panel) -->
+  <rect x="678" y="90" width="100" height="55" rx="4" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="710" y1="97" x2="710" y2="137" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <text x="693" y="122" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5cb85c">+</text>
+  <text x="763" y="122" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#d9534f">−</text>
+  <text x="728" y="108" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle">E · 12V·100Ah</text>
+
+  <!-- Battery F (bottom-left of panel) -->
+  <rect x="678" y="185" width="100" height="55" rx="4" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="710" y1="192" x2="710" y2="232" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <text x="693" y="217" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5cb85c">+</text>
+  <text x="763" y="217" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#d9534f">−</text>
+  <text x="728" y="203" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle">F · 12V·100Ah</text>
+
+  <!-- Battery G (top-right of panel) -->
+  <rect x="830" y="90" width="100" height="55" rx="4" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="862" y1="97" x2="862" y2="137" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <text x="845" y="122" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5cb85c">+</text>
+  <text x="915" y="122" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#d9534f">−</text>
+  <text x="880" y="108" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle">G · 12V·100Ah</text>
+
+  <!-- Battery H (bottom-right of panel) -->
+  <rect x="830" y="185" width="100" height="55" rx="4" fill="#252e3d" stroke="#a8b2c0" stroke-width="2"/>
+  <line x1="862" y1="192" x2="862" y2="232" stroke="#a8b2c0" stroke-width="1.2" opacity="0.5"/>
+  <text x="845" y="217" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#5cb85c">+</text>
+  <text x="915" y="217" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" fill="#d9534f">−</text>
+  <text x="880" y="203" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle">H · 12V·100Ah</text>
+
+  <!-- Series interconnects within each string (dashed orange) -->
+  <!-- String 1: E− (778,117) → F+ (693,212) via right side -->
+  <polyline points="778,117 800,117 800,212 693,212" fill="none" stroke="#f0a33c" stroke-width="2" stroke-dasharray="5,3"/>
+  <!-- String 2: G− (930,117) → H+ (845,212) via right side — but 930 is outside panel. Route left then down. -->
+  <!-- G is at x=830..930; route: G-(930,117) → 945,117 → 945,212 → 845,212 but 945 outside panel(660+290=950) -->
+  <polyline points="930,117 945,117 945,212 845,212" fill="none" stroke="#f0a33c" stroke-width="2" stroke-dasharray="5,3"/>
+
+  <!-- Parallel connection: String 1 output at 24V, String 2 output at 24V, joined in parallel -->
+  <!-- String 1 positive: E+ = left side of E rect, (678,117) -->
+  <!-- String 2 positive: G+ = left side of G rect, (830,117) -->
+  <!-- String 1 negative: F− = right side of F rect, (778,212) — but that's used by series wire -->
+  <!-- String 1 negative: F− bottom (728, 240) -->
+  <!-- String 2 negative: H− bottom (880, 240) -->
+
+  <!-- Positive bus: String1 + from E left; String2 + from G left; join at top bus -->
+  <line x1="678" y1="117" x2="670" y2="117" stroke="#5cb85c" stroke-width="2.5"/>
+  <line x1="830" y1="117" x2="670" y2="117" stroke="#5cb85c" stroke-width="2.5"/>
+  <!-- vertical to output -->
+  <line x1="670" y1="75" x2="670" y2="117" stroke="#5cb85c" stroke-width="2.5"/>
+
+  <!-- Negative bus: String1 − from F bottom; String2 − from H bottom; join at bottom bus -->
+  <line x1="728" y1="240" x2="728" y2="285" stroke="#d9534f" stroke-width="2.5"/>
+  <line x1="880" y1="240" x2="880" y2="285" stroke="#d9534f" stroke-width="2.5"/>
+  <line x1="728" y1="285" x2="880" y2="285" stroke="#d9534f" stroke-width="2.5"/>
+  <!-- vertical to output -->
+  <line x1="805" y1="285" x2="805" y2="310" stroke="#d9534f" stroke-width="2.5"/>
+
+  <!-- Junction dots -->
+  <circle cx="670" cy="117" r="4" fill="#5cb85c"/>
+  <circle cx="728" cy="285" r="4" fill="#d9534f"/>
+  <circle cx="880" cy="285" r="4" fill="#d9534f"/>
+
+  <!-- String labels -->
+  <text x="728" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#f0a33c" text-anchor="middle">String 1</text>
+  <text x="880" y="170" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="10" fill="#f0a33c" text-anchor="middle">String 2</text>
+
+  <!-- Output leads label -->
+  <text x="670" y="68" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#5cb85c">+</text>
+  <text x="808" y="328" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#d9534f">−</text>
+
+  <!-- Output result -->
+  <text x="805" y="370" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#c8d0dc" text-anchor="middle">Output</text>
+  <text x="805" y="390" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#6ec6f5" text-anchor="middle">24 V · 200 Ah</text>
+
+  <!-- Rule callout -->
+  <text x="805" y="448" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">Series strings → then parallel strings</text>
+  <text x="805" y="462" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#8a95a6" text-anchor="middle">2 strings × 2 batteries = 24 V · 200 Ah</text>
+
+  <!-- ===================== LEGEND ===================== -->
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#7f8b9c">
+    <line x1="30" y1="492" x2="60" y2="492" stroke="#f0a33c" stroke-width="2" stroke-dasharray="5,3"/>
+    <text x="66" y="496">Series interconnect (− to +)</text>
+    <line x1="260" y1="492" x2="290" y2="492" stroke="#5cb85c" stroke-width="2.5"/>
+    <text x="296" y="496">Positive conductor</text>
+    <line x1="460" y1="492" x2="490" y2="492" stroke="#d9534f" stroke-width="2.5"/>
+    <text x="496" y="496">Negative conductor</text>
+    <line x1="660" y1="492" x2="690" y2="492" stroke="#8a95a6" stroke-width="2.5"/>
+    <text x="696" y="496">Output bus / load connection</text>
+  </g>
+</svg>

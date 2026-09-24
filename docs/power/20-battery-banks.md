@@ -116,19 +116,112 @@ Two adjustments worth making before you commit to a number:
 
 ## Series and parallel wiring
 
-- **Series** strings connect batteries positive-to-negative to add voltage
-  (two 12V batteries in series = 24V, same Ah).
-- **Parallel** strings connect batteries positive-to-positive and
-  negative-to-negative to add capacity (two 12V 100Ah batteries in parallel =
-  12V, 200Ah).
-- A bank at your target voltage and capacity is usually built as parallel
-  strings of series-connected batteries — e.g., two strings of four 12V
-  batteries in series (48V) connected in parallel doubles the Ah at 48V.
-- Interconnect cables between batteries and between strings need to be
-  identical length and gauge per leg, and appropriately fused/sized for the
-  fault current involved — that sizing and fusing detail is covered in
-  [Basic DC Wiring and Safety](40-dc-wiring-safety.md); don't wire a bank
-  without it.
+Most batteries are sold in a single voltage — commonly 6 V or 12 V for
+lead-acid, and 12 V or 24 V for LiFePO4 modules. Your system voltage and
+capacity target almost never match that out of the box, so you need to
+combine individual batteries using one or both of two wiring methods.
+
+![Battery series and parallel wiring diagrams](images/battery-series-parallel.svg){ width="960" }
+
+### Series wiring — voltage adds, Ah stays the same
+
+In a **series string**, you connect the positive terminal of one battery to
+the negative terminal of the next. The voltages of all batteries in the
+string add together; the amp-hour (Ah) capacity stays equal to one battery.
+
+**How to wire it:**
+1. Connect the **positive terminal of Battery A** to the **negative terminal
+   of Battery B** (the series interconnect — shown dashed orange in the
+   diagram above).
+2. Your output leads are the **free positive terminal of Battery A** and the
+   **free negative terminal of Battery B**.
+
+**Result (example):** Two 12 V · 100 Ah batteries in series → **24 V · 100 Ah**.
+
+**When you use it:** You need a higher system voltage than any single battery
+provides. A 24 V system requires two 12 V batteries in series. A 48 V system
+requires four 12 V batteries (or two 24 V batteries) in series. Higher system
+voltages allow thinner wire for the same power — see
+[Basic DC Wiring and Safety](40-dc-wiring-safety.md).
+
+!!! warning "All batteries in a series string must be identical"
+    Voltage, capacity, chemistry, age, and ideally manufacturer batch must
+    match. The weakest battery in the string sets the capacity ceiling for
+    the whole string, and it will be over-stressed every cycle while its
+    neighbors are under-stressed.
+
+### Parallel wiring — Ah adds, voltage stays the same
+
+In a **parallel group**, you connect all positive terminals together (to a
+positive bus) and all negative terminals together (to a negative bus). The
+voltages remain the same as one battery; the amp-hour capacity sums.
+
+**How to wire it:**
+1. Connect both **positive terminals** to a shared positive bus bar or
+   junction. The positive output lead comes off that bus.
+2. Connect both **negative terminals** to a shared negative bus bar.
+   The negative output lead comes off that bus.
+3. Wire lengths from each battery to the bus must be **equal in length and
+   gauge** so that current is drawn equally from each battery, not
+   preferentially from the one physically closest to the load.
+
+**Result (example):** Two 12 V · 100 Ah batteries in parallel → **12 V · 200 Ah**.
+
+**When you use it:** You have enough voltage already but need more capacity
+(runtime). Adding a second battery in parallel doubles the amp-hours while
+keeping the voltage unchanged.
+
+!!! warning "All batteries in a parallel group must be identical"
+    Parallel batteries share current continuously. A stronger battery will
+    try to charge a weaker one, creating circular currents and heat. Mismatched
+    ages or capacities cause the weaker unit to cycle harder than the stronger
+    one — accelerating both batteries' degradation.
+
+### Combining series and parallel (the common real-world case)
+
+Most practical banks combine both methods: build series **strings** to reach
+the target voltage, then connect multiple strings in **parallel** to reach
+the target capacity.
+
+**Always wire series first, then parallel.** This means:
+1. Wire each series string completely (e.g., two 12 V batteries in series
+   to make 24 V per string).
+2. Verify that each completed string measures the correct terminal voltage
+   before connecting strings in parallel.
+3. Connect the positive output of String 1 to the positive output of
+   String 2 (and so on), and similarly for the negative outputs.
+
+**Result (example):** Two strings, each made of two 12 V · 100 Ah batteries
+in series → each string is 24 V · 100 Ah → connect both strings in
+parallel → **24 V · 200 Ah**. This is the "2S2P" case shown in the right
+panel of the diagram.
+
+**Scaling up:** The pattern extends directly. A 48 V · 400 Ah bank built
+from 12 V · 100 Ah batteries needs 4 batteries per series string (4 × 12 V
+= 48 V) and 4 parallel strings (4 × 100 Ah = 400 Ah) — 16 batteries total.
+
+### Interconnect wiring rules
+
+Once the topology is clear, the physical wiring has a few firm requirements:
+
+- **Equal-length, equal-gauge cables between batteries and between strings.**
+  Unequal lengths mean unequal resistance, which means unequal current
+  sharing — the lower-resistance path carries more current, overworking some
+  batteries while underutilizing others. Cut all interconnect cables to the
+  same length even if a shorter cable would physically fit.
+- **Match cable gauge to the fault current, not just the load current.**
+  A battery bank can deliver thousands of amps into a dead short. Wire
+  sizing and fuse placement for the bank's interconnects is covered in full
+  in [Basic DC Wiring and Safety](40-dc-wiring-safety.md) — do not skip
+  that section when building a bank.
+- **Fuse each parallel string** at its positive terminal, as close to the
+  battery as practical, before the strings join at the bus. This protects
+  against a string fault becoming a cross-string fault.
+- **Use a bus bar, not daisy-chained terminals, for parallel connections.**
+  Running a single cable from Battery 1 to Battery 2 to Battery 3 creates
+  unequal impedance paths — Battery 1 is closest to the load on one side
+  and farthest on the other. A dedicated bus bar gives each battery
+  equal, independent connections to the output.
 
 !!! warning "Do not mix batteries of different age, capacity, or chemistry in one bank"
     A bank is only as good as its weakest battery, and mismatched batteries

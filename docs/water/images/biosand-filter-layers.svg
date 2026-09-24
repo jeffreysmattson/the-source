@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="820" height="640" role="img" aria-labelledby="title desc">
+  <title id="title">Biosand filter layer cross-section</title>
+  <desc id="desc">A cross-section of a household biosand filter. Water is poured into an inlet reservoir at the top, passes through a diffuser plate, and stands above a thin biological layer (the schmutzdecke) at the top of the filtration sand. Water percolates down through the sand, a separating gravel layer, and a drainage gravel layer, then rises through an outlet tube embedded in the wall to exit at the height of the standing water before dripping into a storage container.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="165" y="44" width="230" height="20" rx="3" fill="#8a95a6" fill-opacity="0.25" stroke="#8a95a6" stroke-width="3"/>
+    <rect x="270" y="34" width="40" height="12" rx="3" stroke="#8a95a6" stroke-width="3"/>
+
+    <path d="M180,66 L180,560 M380,66 L380,560 M180,560 L380,560" stroke="#8a95a6" stroke-width="4"/>
+
+    <line x1="182" y1="150" x2="378" y2="150" stroke="#60a5fa" stroke-width="2" stroke-dasharray="6 4"/>
+
+    <rect x="190" y="152" width="180" height="9" rx="2" fill="#a8b2c0" stroke="#8a95a6" stroke-width="1.5"/>
+
+    <rect x="184" y="163" width="192" height="45" fill="#7fb8f5" fill-opacity="0.45" stroke="none"/>
+    <rect x="184" y="208" width="192" height="9" fill="#6b5a3a" stroke="none"/>
+    <rect x="184" y="217" width="192" height="203" fill="#ab8f66" stroke="none"/>
+    <rect x="184" y="420" width="192" height="40" fill="#9099a6" stroke="none"/>
+    <rect x="184" y="460" width="192" height="50" fill="#78808f" stroke="none"/>
+
+    <path d="M366,555 L366,150 L384,150 L384,545" stroke="#8a95a6" stroke-width="7"/>
+    <path d="M366,545 L366,155 L380,155 L380,540" stroke="#f0a33c" stroke-width="2.5" stroke-dasharray="4 3"/>
+    <polygon points="377,548 391,548 384,561" fill="#60a5fa" stroke="none"/>
+
+    <rect x="358" y="565" width="52" height="38" rx="4" stroke="#8a95a6" stroke-width="3" fill="#7fb8f5" fill-opacity="0.15"/>
+
+    <polygon points="264,95 276,95 270,108" fill="#60a5fa" stroke="none"/>
+    <polygon points="264,340 276,340 270,353" fill="#7f8b9c" fill-opacity="0.6" stroke="none"/>
+
+    <g stroke="#8a95a6" stroke-width="1.5">
+      <circle cx="205" cy="156.5" r="1.8" fill="#8a95a6"/>
+      <circle cx="230" cy="156.5" r="1.8" fill="#8a95a6"/>
+      <circle cx="255" cy="156.5" r="1.8" fill="#8a95a6"/>
+      <circle cx="280" cy="156.5" r="1.8" fill="#8a95a6"/>
+      <circle cx="305" cy="156.5" r="1.8" fill="#8a95a6"/>
+      <circle cx="330" cy="156.5" r="1.8" fill="#8a95a6"/>
+      <circle cx="355" cy="156.5" r="1.8" fill="#8a95a6"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#7f8b9c">
+    <text x="404" y="58">Lid</text>
+    <text x="404" y="73" font-size="12">(keeps out contamination)</text>
+
+    <text x="404" y="104">Inlet reservoir</text>
+    <text x="404" y="119" font-size="12">(pour water here)</text>
+
+    <text x="404" y="150">Diffuser plate</text>
+    <text x="404" y="165" font-size="11.5">(prevents disturbing biolayer)</text>
+
+    <text x="404" y="193">Standing water</text>
+    <text x="404" y="208" font-size="11.5">(~5 cm; feeds oxygen to biolayer)</text>
+
+    <text x="404" y="228">Biolayer (schmutzdecke)</text>
+    <text x="404" y="243" font-size="11.5">(1&#8211;2 cm; must stay wet)</text>
+
+    <text x="404" y="272">Outlet tube</text>
+    <text x="404" y="287" font-size="11.5">(runs up inside the wall; exit</text>
+    <text x="404" y="300" font-size="11.5">height sets standing-water depth)</text>
+
+    <text x="404" y="332">Filtration sand</text>
+    <text x="404" y="347" font-size="11.5">(&#8804;0.7 mm; ~40+ cm deep)</text>
+    <text x="404" y="362" font-size="11.5">(top few cm = biological zone)</text>
+
+    <text x="404" y="444">Separating gravel</text>
+    <text x="404" y="459" font-size="11.5">(6 mm crushed rock)</text>
+
+    <text x="404" y="489">Drainage gravel</text>
+    <text x="404" y="504" font-size="11.5">(12 mm crushed rock)</text>
+
+    <text x="424" y="588">Filtered water out</text>
+  </g>
+</svg>

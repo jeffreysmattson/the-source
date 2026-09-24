@@ -149,9 +149,19 @@ be disposable.
 
 ## Before finishing a change
 
-1. `make build` completes with **no WARNING or ERROR lines**. MkDocs reports
-   broken internal links as warnings — a clean build is the link check.
+1. `make build` completes with **no WARNING or ERROR lines**. This catches
+   most broken internal links, but a broken **in-page anchor** link
+   (`#some-heading`) is only logged as `INFO`, not `WARNING` — read the actual
+   build output when a page uses anchor links, don't just grep for
+   WARNING/ERROR. Also, a heading's generated anchor collapses punctuation to
+   a single hyphen regardless of how many characters were stripped: `##
+   Procedure — Thing` becomes `#procedure-thing`, not `#procedure--thing`.
+   When linking to a heading with an em dash or other punctuation, check the
+   real `id=` in the built HTML rather than guessing the slug.
 2. New or edited pages render correctly in a browser, not just in markdown.
-   Diagrams especially: screenshot them and look.
+   Diagrams especially: screenshot them and look. On macOS with no browser
+   automation installed, `qlmanage -t -s 1200 -o /tmp/out <file>` (QuickLook's
+   thumbnailer) renders a standalone `.svg` or a built `.html` page to PNG —
+   use it to actually view the diagram before calling it done.
 3. The remote-resource grep above is still clean.
 4. Commit with a message explaining *why*, not just what.

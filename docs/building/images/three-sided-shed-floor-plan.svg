@@ -1,0 +1,264 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="1100" height="560" role="img" aria-labelledby="fp-title fp-desc">
+  <title id="fp-title">Floor plan and post layout for a three-sided shed — single-bay and two-bay examples</title>
+  <desc id="fp-desc">Two plan-view drawings side by side. Left: a single-bay 12 by 14 foot three-sided shed. Six posts are shown as solid squares at the corners and mid-span of the rear wall. The rear wall and both end walls are indicated as closed. The open front is marked with a dashed line. Skid positions are shown as dashed rectangles running front to rear. Post spacing dimensions are called out: 12 feet across the open front, 14 feet side-wall depth, and 6-foot rear-wall post spacing. Right: a two-bay 24 by 16 foot shed. Eight posts are shown. A center post pair divides the two bays. Dimensions call out 12 feet per bay, 16 feet depth, and the optional center divider location. Both plans include a note about equal-length interconnect cables and show a north arrow indicating prevailing winter wind from the northwest, with the open face oriented south or east.</desc>
+
+  <!-- Background panels -->
+  <rect x="10" y="55" width="510" height="460" rx="6" fill="#1a2230" stroke="#3a4555" stroke-width="1.5"/>
+  <rect x="580" y="55" width="510" height="460" rx="6" fill="#1a2230" stroke="#3a4555" stroke-width="1.5"/>
+
+  <!-- Panel titles -->
+  <g font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="13" font-weight="600" fill="#c8d0dc" text-anchor="middle">
+    <text x="265" y="40">Single-Bay: 12 ft wide x 14 ft deep</text>
+    <text x="835" y="40">Two-Bay: 24 ft wide x 16 ft deep</text>
+  </g>
+
+  <!-- ============================================================
+       SCALE: 1 ft = 24 px
+       Single bay: 12 ft wide = 288 px, 14 ft deep = 336 px
+       Centered in left panel (510 wide, 460 tall)
+       Origin x = 10 + (510-288)/2 = 121, y = 55 + (460-336)/2 = 117
+  ============================================================ -->
+
+  <g id="single-bay">
+
+    <!-- Computed positions for single-bay plan -->
+    <!-- Panel origin: left=10, top=55, width=510, height=460 -->
+    <!-- Building: 12ft wide x 14ft deep, scale 24px/ft -->
+    <!-- ox=121, oy=117 -->
+
+    <!-- Skid foundations (dashed, run front-to-back, i.e. vertical in plan) -->
+    <rect x="121" y="117" width="16" height="336" fill="none" stroke="#5a6a3a" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <rect x="393" y="117" width="16" height="336" fill="none" stroke="#5a6a3a" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+    <!-- Closed walls (thick lines) -->
+    <!-- Rear wall (top in plan): from (121,117) to (409,117) -->
+    <line x1="121" y1="117" x2="409" y2="117" stroke="#a8b2c0" stroke-width="8"/>
+    <!-- Left end wall: from (121,117) to (121,453) -->
+    <line x1="121" y1="117" x2="121" y2="453" stroke="#a8b2c0" stroke-width="8"/>
+    <!-- Right end wall: from (409,117) to (409,453) -->
+    <line x1="409" y1="117" x2="409" y2="453" stroke="#a8b2c0" stroke-width="8"/>
+
+    <!-- Open front (dashed blue) -->
+    <line x1="121" y1="453" x2="409" y2="453" stroke="#60a5fa" stroke-width="3" stroke-dasharray="10,5"/>
+
+    <!-- Interior space fill -->
+    <rect x="125" y="121" width="280" height="328" fill="#1e2a38" stroke="none" opacity="0.6"/>
+
+    <!-- Posts (6x6 = 6in, shown as 8x8 px squares at scale) -->
+    <!-- Corners: FL(121,453), FR(409,453), RL(121,117), RR(409,117) -->
+    <!-- Mid-rear: center of rear wall = (265,117) -->
+    <!-- Mid-front: center of open front = (265,453) — show as open post position (lighter) -->
+
+    <!-- Front posts (at open face) -->
+    <rect x="117" y="449" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="403" y="449" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+
+    <!-- Rear posts -->
+    <rect x="117" y="113" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="259" y="113" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="403" y="113" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+
+    <!-- Mid-depth posts on end walls (at ~7ft depth = 168px from front) -->
+    <rect x="117" y="281" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="403" y="281" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+
+    <!-- Knee brace footprint indicator (diagonal line from front post inward on plan) -->
+    <line x1="121" y1="453" x2="175" y2="399" stroke="#f0a33c" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="409" y1="453" x2="355" y2="399" stroke="#f0a33c" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Rafters in plan (horizontal lines across width, every 2ft = 48px) -->
+    <g stroke="#3a4555" stroke-width="1" opacity="0.5">
+      <line x1="125" y1="165" x2="405" y2="165"/>
+      <line x1="125" y1="213" x2="405" y2="213"/>
+      <line x1="125" y1="261" x2="405" y2="261"/>
+      <line x1="125" y1="309" x2="405" y2="309"/>
+      <line x1="125" y1="357" x2="405" y2="357"/>
+      <line x1="125" y1="405" x2="405" y2="405"/>
+    </g>
+
+    <!-- Dimension lines -->
+    <!-- Width: below front face -->
+    <line x1="121" y1="476" x2="409" y2="476" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="121" y1="470" x2="121" y2="482" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="409" y1="470" x2="409" y2="482" stroke="#6ec6f5" stroke-width="1"/>
+    <text x="265" y="494" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#6ec6f5" text-anchor="middle">12 ft</text>
+
+    <!-- Depth: right of right wall -->
+    <line x1="432" y1="117" x2="432" y2="453" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="426" y1="117" x2="438" y2="117" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="426" y1="453" x2="438" y2="453" stroke="#6ec6f5" stroke-width="1"/>
+    <text x="448" y="289" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#6ec6f5" text-anchor="start">14 ft</text>
+
+    <!-- Rear post spacing -->
+    <line x1="121" y1="98" x2="265" y2="98" stroke="#6ec6f5" stroke-width="0.8"/>
+    <line x1="121" y1="93" x2="121" y2="103" stroke="#6ec6f5" stroke-width="0.8"/>
+    <line x1="265" y1="93" x2="265" y2="103" stroke="#6ec6f5" stroke-width="0.8"/>
+    <text x="193" y="90" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#6ec6f5" text-anchor="middle">6 ft</text>
+    <line x1="265" y1="98" x2="409" y2="98" stroke="#6ec6f5" stroke-width="0.8"/>
+    <line x1="409" y1="93" x2="409" y2="103" stroke="#6ec6f5" stroke-width="0.8"/>
+    <text x="337" y="90" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#6ec6f5" text-anchor="middle">6 ft</text>
+
+    <!-- Labels -->
+    <!-- Open front -->
+    <text x="265" y="510" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">Open front</text>
+
+    <!-- Rear wall -->
+    <text x="265" y="80" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle">Rear wall (sheathed)</text>
+
+    <!-- End wall -->
+    <text x="70" y="287" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle" transform="rotate(-90,70,287)">End wall (sheathed)</text>
+
+    <!-- Knee brace label -->
+    <text x="140" y="390" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#f0a33c">Knee brace</text>
+    <text x="140" y="401" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#8a95a6">footprint</text>
+
+    <!-- Post label -->
+    <text x="180" y="451" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#a8b2c0">Post (6x6)</text>
+
+    <!-- Rafter label -->
+    <text x="200" y="208" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#5a6a7a">Rafter @ 24 in o.c.</text>
+
+    <!-- Skid label -->
+    <text x="96" y="287" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#5a6a3a" text-anchor="middle" transform="rotate(-90,96,287)">PT skid (below)</text>
+
+  </g>
+
+  <!-- ============================================================
+       TWO-BAY PLAN
+       24 ft wide x 16 ft deep, scale 20px/ft
+       Panel origin: x=580, y=55, width=510, height=460
+       Building: 24ft wide = 480px, 16ft deep = 320px (at 20px/ft)
+       Center: 580+(510-480)/2=595, 55+(460-320)/2=125
+       ox=595, oy=125
+  ============================================================ -->
+
+  <g id="two-bay">
+
+    <!-- Skid foundations (3 skids across 24ft, at 0, 12, 24ft) -->
+    <rect x="595" y="125" width="14" height="320" fill="none" stroke="#5a6a3a" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <rect x="833" y="125" width="14" height="320" fill="none" stroke="#5a6a3a" stroke-width="1.5" stroke-dasharray="8,4"/>
+    <rect x="1071" y="125" width="14" height="320" fill="none" stroke="#5a6a3a" stroke-width="1.5" stroke-dasharray="8,4"/>
+
+    <!-- Closed walls -->
+    <!-- Rear wall -->
+    <line x1="595" y1="125" x2="1075" y2="125" stroke="#a8b2c0" stroke-width="8"/>
+    <!-- Left end wall -->
+    <line x1="595" y1="125" x2="595" y2="445" stroke="#a8b2c0" stroke-width="8"/>
+    <!-- Right end wall -->
+    <line x1="1075" y1="125" x2="1075" y2="445" stroke="#a8b2c0" stroke-width="8"/>
+
+    <!-- Optional center divider (lighter, dashed) -->
+    <line x1="835" y1="125" x2="835" y2="445" stroke="#8a95a6" stroke-width="2" stroke-dasharray="8,4" opacity="0.6"/>
+
+    <!-- Open front -->
+    <line x1="595" y1="445" x2="1075" y2="445" stroke="#60a5fa" stroke-width="3" stroke-dasharray="10,5"/>
+
+    <!-- Interior fill (two bays) -->
+    <rect x="599" y="129" width="232" height="312" fill="#1e2a38" stroke="none" opacity="0.6"/>
+    <rect x="839" y="129" width="232" height="312" fill="#1e2838" stroke="none" opacity="0.6"/>
+
+    <!-- Posts: corners + center front + center rear + mid-depth on ends and center -->
+    <!-- Rear: (595,125), (835,125), (1075,125) -->
+    <rect x="591" y="121" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="829" y="121" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="1071" y="121" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <!-- Mid-depth rear (at 8ft depth = 160px from front = y=445-160=285) -->
+    <rect x="591" y="281" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="1071" y="281" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <!-- Front: (595,445), (835,445), (1075,445) -->
+    <rect x="591" y="441" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="829" y="441" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <rect x="1071" y="441" width="12" height="12" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+
+    <!-- Knee brace footprints at front corner posts -->
+    <line x1="595" y1="445" x2="649" y2="391" stroke="#f0a33c" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="1075" y1="445" x2="1021" y2="391" stroke="#f0a33c" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Rafter lines (horizontal, every ~2ft = 40px across each bay) -->
+    <g stroke="#3a4555" stroke-width="1" opacity="0.5">
+      <line x1="599" y1="165" x2="1071" y2="165"/>
+      <line x1="599" y1="205" x2="1071" y2="205"/>
+      <line x1="599" y1="245" x2="1071" y2="245"/>
+      <line x1="599" y1="285" x2="1071" y2="285"/>
+      <line x1="599" y1="325" x2="1071" y2="325"/>
+      <line x1="599" y1="365" x2="1071" y2="365"/>
+      <line x1="599" y1="405" x2="1071" y2="405"/>
+    </g>
+
+    <!-- Dimension lines -->
+    <!-- Per-bay width at front -->
+    <line x1="595" y1="468" x2="835" y2="468" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="595" y1="462" x2="595" y2="474" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="835" y1="462" x2="835" y2="474" stroke="#6ec6f5" stroke-width="1"/>
+    <text x="715" y="486" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#6ec6f5" text-anchor="middle">12 ft / bay</text>
+    <line x1="835" y1="468" x2="1075" y2="468" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="1075" y1="462" x2="1075" y2="474" stroke="#6ec6f5" stroke-width="1"/>
+    <text x="955" y="486" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#6ec6f5" text-anchor="middle">12 ft / bay</text>
+
+    <!-- Total width -->
+    <line x1="595" y1="504" x2="1075" y2="504" stroke="#6ec6f5" stroke-width="0.8"/>
+    <line x1="595" y1="499" x2="595" y2="509" stroke="#6ec6f5" stroke-width="0.8"/>
+    <line x1="1075" y1="499" x2="1075" y2="509" stroke="#6ec6f5" stroke-width="0.8"/>
+    <text x="835" y="520" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#6ec6f5" text-anchor="middle">24 ft total</text>
+
+    <!-- Depth -->
+    <line x1="1092" y1="125" x2="1092" y2="445" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="1086" y1="125" x2="1098" y2="125" stroke="#6ec6f5" stroke-width="1"/>
+    <line x1="1086" y1="445" x2="1098" y2="445" stroke="#6ec6f5" stroke-width="1"/>
+    <text x="1090" y="285" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#6ec6f5" text-anchor="start">  16 ft</text>
+
+    <!-- Labels -->
+    <text x="835" y="510" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle"> </text>
+    <text x="835" y="114" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle">Rear wall (sheathed)</text>
+    <text x="835" y="458" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#60a5fa" text-anchor="middle">Open front</text>
+
+    <!-- Center divider label -->
+    <text x="870" y="220" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#8a95a6">Optional</text>
+    <text x="870" y="231" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="9" fill="#8a95a6">divider</text>
+
+    <!-- Bay labels -->
+    <text x="715" y="287" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" fill="#4a5a6a" text-anchor="middle">Bay 1</text>
+    <text x="715" y="302" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#4a5a6a" text-anchor="middle">(e.g. firewood)</text>
+    <text x="955" y="287" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="12" fill="#4a5a6a" text-anchor="middle">Bay 2</text>
+    <text x="955" y="302" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#4a5a6a" text-anchor="middle">(e.g. equipment)</text>
+
+    <!-- End wall label -->
+    <text x="554" y="287" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#8a95a6" text-anchor="middle" transform="rotate(-90,554,287)">End wall (sheathed)</text>
+
+  </g>
+
+  <!-- Shared legend and notes -->
+  <g font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="11" fill="#7f8b9c">
+
+    <!-- Legend -->
+    <line x1="30" y1="539" x2="56" y2="539" stroke="#a8b2c0" stroke-width="6"/>
+    <text x="62" y="543">Closed (sheathed) wall</text>
+
+    <line x1="200" y1="539" x2="226" y2="539" stroke="#60a5fa" stroke-width="2.5" stroke-dasharray="6,3"/>
+    <text x="232" y="543">Open front</text>
+
+    <rect x="340" y="534" width="10" height="10" fill="#4a5568" stroke="#a8b2c0" stroke-width="1.5"/>
+    <text x="356" y="543">Post (6x6)</text>
+
+    <line x1="440" y1="539" x2="466" y2="539" stroke="#f0a33c" stroke-width="1.5" stroke-dasharray="4,2"/>
+    <text x="472" y="543">Knee brace footprint</text>
+
+    <line x1="630" y1="539" x2="656" y2="539" stroke="#5a6a3a" stroke-width="1.5" stroke-dasharray="6,3"/>
+    <text x="662" y="543">PT skid (below slab)</text>
+
+    <line x1="800" y1="539" x2="826" y2="539" stroke="#3a4555" stroke-width="1" opacity="0.8"/>
+    <text x="832" y="543">Rafter (plan view)</text>
+
+  </g>
+
+  <!-- North arrow with note on orientation -->
+  <g transform="translate(460,460)" font-family="system-ui,-apple-system,'Segoe UI',Roboto,sans-serif" font-size="10" fill="#7f8b9c">
+    <line x1="0" y1="0" x2="0" y2="-22" stroke="#8a95a6" stroke-width="2"/>
+    <polygon points="0,-28 -5,-18 5,-18" fill="#8a95a6"/>
+    <text x="0" y="10" text-anchor="middle">N</text>
+    <text x="0" y="30" text-anchor="middle" font-size="9">Orient open face</text>
+    <text x="0" y="41" text-anchor="middle" font-size="9">S or E (away from</text>
+    <text x="0" y="52" text-anchor="middle" font-size="9">NW winter wind)</text>
+  </g>
+
+</svg>

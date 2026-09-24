@@ -122,6 +122,32 @@ platform-framed on a continuous foundation, because post-frame goes up fast
 at this scale, needs no continuous footing, and puts the structural posts
 exactly where the open bay needs clear space.
 
+### Framing overview
+
+The key members in a three-sided post-frame shed are:
+
+- **Posts (6×6)** at the four corners and optionally at a mid-span point on
+  the rear wall for longer spans. On the closed end and rear walls the posts
+  are tied at mid-height by a **girt (2×6)**, which stiffens the wall and
+  gives an intermediate nailing surface for sheathing.
+- **Top plate / ledger (double 2×8)** running the full perimeter at the top
+  of the posts. On the open front, this is the ledger that the rafter tails
+  land on — it carries all the roof load on that side without a wall beneath it.
+- **Rafters (2×8 @ 24 in o.c.)** running front-to-back, bearing on the front
+  ledger and the rear plate. Rafter size must be checked against your local
+  ground snow load in the span tables in
+  [Material Selection and Span Tables](70-materials-and-spans.md) — a
+  24-in spacing at a 12-ft span is typical for NH ground snow loads but is
+  not universally adequate; verify before building.
+- **Knee braces (2×6 minimum, 45°)** from each front post up to the underside
+  of the ledger, triangulating the post-to-roof joint. They are the sole
+  racking resistance on the open side and are therefore structural, not
+  decorative — their connections must be designed for the load, not just
+  nailed on.
+- **Skids (4×6 pressure-treated)** running front-to-back under the floor
+  frame, sitting on a compacted gravel pad and not anchored to the ground,
+  allowing the assembly to float with minor frost movement.
+
 ### Setting the posts
 
 Two ways to hold a post up, with a real durability trade-off between them:
@@ -156,6 +182,46 @@ because it was set on frost-susceptible soil with no footing below frost line
 does the same thing in the other direction.
 
 ![Post set in ground versus post on a pier or bracket above grade](images/post-setting-buried-vs-pier.svg){ width="880" }
+
+### Connection details — post, ledger, and rafter
+
+The three critical connections in a three-sided shed frame are where the post
+meets the ledger, where the knee brace is fastened, and where each rafter
+lands on the ledger. Getting any of these wrong is how a shed that looks
+plumb and solid fails in the first heavy wind or snow event.
+
+**Post-in-ground:** The double 2×8 ledger is bolted through the
+post face with ½-in bolts at 16-in centers. The knee brace is notched into
+the post — not just surface-nailed — and through-bolted at both ends. The
+post must bear on a footing pad at the bottom of the hole, not on loose
+backfill. UC4B ground-contact rating is the minimum for a structural post;
+the frost depth that determines hole depth is a town-by-town number from the
+local building department, not a table value.
+
+**Post-on-bracket (center panel):** The same ledger-bolt and knee-brace
+detail applies above the bracket. The galvanized post base (Simpson ABA or
+equivalent) is anchor-bolted to a concrete pier that extends below frost.
+The post's bottom end stays clear of the soil entirely — this is the more
+durable option because it removes the wood-in-ground rot path while still
+achieving the frost depth the post-in-ground detail needs to reach.
+
+**Rafter-to-ledger (right panel):** Each rafter gets a **bird's mouth** cut
+at the ledger — a seat cut (horizontal) and a plumb cut (vertical) that
+give the rafter a bearing surface on the ledger top and a plumb face against
+it. The rafter is toe-nailed at the seat (3 × 16d per side) **and** tied
+with a metal hurricane connector (Simpson H2.5 or equivalent) at each
+location. The hurricane tie is not optional on an open structure — it is the
+primary uplift path, and an open-front shed is more vulnerable to roof uplift
+than an equivalent enclosed building (see *Roof: pitch, overhang, and uplift*
+below).
+
+!!! warning "Do not skip the hurricane ties on the open face"
+    Wind can travel through the open bay and push up against the underside of
+    the roof deck, in addition to the suction load on top. Toe-nails alone
+    are not designed for the combined uplift force on a post-frame open
+    structure. Install a rated uplift connector at every rafter-to-ledger
+    bearing and carry the load path from there down through the post to its
+    footing or ground anchor.
 
 ### Lateral bracing on the open side — the thing that gets skipped
 
@@ -199,6 +265,43 @@ mistake dangerous: it fails in a wind event, not on the day it's built, and by
 then the load path was never there to fail gracefully.
 
 ![Three ways to brace the open front: knee braces, sheathed end and rear walls, or corner-to-corner diagonal bracing](images/open-front-bracing-options.svg){ width="1200" }
+
+### Post layout and bay sizing
+
+The floor plan below shows standard post layouts for a single-bay (12×14 ft)
+and a two-bay (24×16 ft) three-sided shed. These are starting points — not
+prescribed dimensions — but they reflect the post spacings and span
+relationships that keep rafter and ledger sizes in the range the span tables
+cover without custom engineering.
+
+![Floor plan and post layout for single-bay and two-bay three-sided sheds](images/three-sided-shed-floor-plan.svg){ width="1100" }
+
+**Single-bay (12×14 ft):** Six posts total — two at the open front corners,
+two at mid-depth on the end walls, and two at the rear. The rear wall gets
+a center post at 6-ft on-center to stay within typical ledger and girt
+spans. Skids run front-to-back under the two post lines. This layout holds
+approximately 2 full cords of firewood with air gap or a single mid-size
+machine.
+
+**Two-bay (24×16 ft):** Eight posts, with a center post pair front and rear
+that can also carry an optional partial divider between bays. Each bay is
+still 12 ft wide — the same span as the single-bay — so the same rafter
+and ledger sizing applies per bay. The open face is 24 ft of unbraced
+length, which makes the center-post knee bracing critical: without a brace
+at the center pair, the effective unbraced length of the ledger doubles.
+
+**Orientation:** The open face should point away from the prevailing
+northwest winter weather — generally south or east in this region — for two
+reasons: it limits wind-driven snow in the bay and reduces the direct wind
+pressure load on the braced open frame. This is a balance rather than an
+absolute rule; the face still needs enough sun and airflow to season
+firewood.
+
+**Extending the layout:** A three-bay (36 ft) or longer shed follows the
+same pattern — add a post pair and a bay at 12-ft intervals. The spans per
+bay stay constant; the lateral bracing at each front post pair must be
+maintained; and the ridge runs continuously along the full length,
+supported at each post-pair gable.
 
 ### Roof: pitch, overhang, and uplift
 
