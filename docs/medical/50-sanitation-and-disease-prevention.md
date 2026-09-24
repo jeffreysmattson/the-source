@@ -193,6 +193,82 @@ chlorination, iodine, filtration, and SODIS methods and their limits (in
 particular, chlorine's weaker performance against protozoan cysts like
 *Cryptosporidium*).
 
+## Recognizing and responding to suspected protozoan illness
+
+The water and hygiene measures above cut risk for bacteria and viruses, but
+protozoan parasites — chiefly *Giardia duodenalis*, *Cryptosporidium*, and
+(less common in the US, but relevant after travel) *Entamoeba histolytica* —
+deserve their own attention because they **survive some of the same measures
+that kill bacteria and viruses**. Chlorine bleach, the most commonly reached-
+for disinfectant, is weaker against protozoan cysts, especially
+*Cryptosporidium*, than it is against bacteria and viruses — see
+[Water Purification](../water/20-water-purification.md) for why boiling or
+proper filtration matter more once surface water or an untreated well is the
+source.
+
+**How to tell a protozoan illness from an ordinary GI bug.** The biggest
+practical clue is timing: bacterial and viral gastroenteritis typically start
+within hours to a couple of days of exposure and resolve within a few days.
+Protozoan illness runs slower on both ends:
+
+- **Giardiasis:** symptoms start **1–2 weeks** after exposure — greasy,
+  foul-smelling, non-bloody diarrhea, bloating, gas, cramping, nausea, and
+  fatigue — and typically last **2–6 weeks** if untreated, far longer than a
+  typical stomach bug.
+- **Cryptosporidiosis:** onset **2–10 days** (average about a week) after
+  exposure — watery diarrhea, cramping, low-grade fever, nausea — lasting
+  roughly **1–4 weeks** in someone with a healthy immune system. In someone
+  immunocompromised, it can become severe, chronic, and life-threatening
+  rather than self-limiting.
+- **Amebiasis** (*E. histolytica*): most infected people (roughly 80–90%)
+  have no symptoms at all. When it is symptomatic, it ranges from mild
+  cramping and diarrhea up to **dysentery** — bloody, mucus-streaked
+  diarrhea from invasion of the intestinal lining — and, less often, spread
+  beyond the gut to the liver (fever, right-upper-quadrant pain, and
+  tenderness are the warning signs of a liver abscess). This is the one of
+  the three that most often escalates to genuinely dangerous disease, and
+  it's why blood in the stool is a red flag regardless of which organism is
+  suspected.
+
+**Field response.** There is no reliable way to identify *which* protozoan
+(or whether it's a protozoan at all, versus bacterial or viral) without a
+laboratory stool test, which isn't available in the situations this wiki
+plans around. Treat any prolonged, non-improving GI illness the same way
+regardless of the exact cause:
+
+1. **Start oral rehydration immediately** and keep it up — dehydration, not
+   the infection itself, is what actually kills in diarrheal illness. Use a
+   commercial oral rehydration salts product if you have one (see
+   [Medication Shelf Life and Substitution](40-medication-shelf-life-and-substitution.md)
+   for stocking them); if you don't, safe water, broths, and diluted soups
+   are reasonable bridges — avoid juice, soda, and sports drinks, whose sugar
+   content can worsen diarrhea.
+2. **Isolate the sick person and step up hand hygiene** as described above —
+   protozoan cysts are shed in stool and spread the same fecal-oral way as
+   bacterial and viral illness, including person-to-person, not just through
+   water.
+3. **Escalate to real medical care** rather than waiting it out when any of
+   these appear: blood or mucus in the stool, high or persistent fever,
+   signs of dehydration that aren't improving with rehydration (little or no
+   urination, sunken eyes, lethargy), symptoms still going after roughly
+   1–2 weeks, or the sick person is an infant, pregnant, elderly, or
+   immunocompromised. Right-upper-quadrant abdominal pain with fever is an
+   amebic-liver-abscess warning sign specifically and warrants urgent care.
+4. **Prescription drugs are the actual cure**, and are worth knowing by name
+   even though they require a clinician: **metronidazole** or **tinidazole**
+   treat both giardiasis and amebiasis; **nitazoxanide** is FDA-approved for
+   both giardiasis and cryptosporidiosis (it is, notably, the only approved
+   drug for *Cryptosporidium*, and it has not been shown to work reliably in
+   immunocompromised patients). Mild giardiasis and cryptosporidiosis in an
+   otherwise healthy person often resolve without treatment, but amebiasis
+   should always be treated once identified — untreated intestinal infection
+   can progress to invasive disease — and anyone immunocompromised needs
+   professional management rather than a wait-and-see approach. If advance
+   conversations with a prescribing clinician about backup medication (see
+   the medication page linked above) are on the table, and off-grid time
+   near untreated surface water is a realistic scenario, these are worth
+   asking about by name.
+
 ## General waste and trash management
 
 Garbage is a sanitation problem even when it contains no human waste,
@@ -332,6 +408,21 @@ shared surfaces and other people slows or stops household spread:
 - CDC/NIOSH (stacks.cdc.gov), *Sanitation in the Control of Insects and
   Rodents of Public Health Importance* —
   <https://stacks.cdc.gov/view/cdc/47771/cdc_47771_DS1.pdf>
+- CDC, *Symptoms of Giardia Infection* and *Treatment of Giardia Infection* —
+  <https://www.cdc.gov/giardia/signs-symptoms/index.html>,
+  <https://www.cdc.gov/giardia/treatment/index.html>
+- CDC, *Symptoms of Crypto* and *Clinical Care of Crypto* (nitazoxanide
+  approval and its limits in immunocompromised patients) —
+  <https://www.cdc.gov/cryptosporidium/signs-symptoms/index.html>,
+  <https://www.cdc.gov/cryptosporidium/hcp/clinical-care/index.html>
+- CDC, *About Amebiasis* (symptom range, dysentery, liver abscess) and CDC
+  Yellow Book, *Amebiasis* (treatment: metronidazole/tinidazole followed by
+  iodoquinol or paromomycin) —
+  <https://www.cdc.gov/amebiasis/about/index.html>,
+  <https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/amebiasis>
+- CDC, *Treating Cholera* (oral rehydration solution guidance, generalized
+  here to diarrheal illness broadly) —
+  <https://www.cdc.gov/cholera/treatment/index.html>
 
 Where sources disagree — notably the U.S. household-scale latrine minimums
 (100 ft / 3 ft deep / 1 ft above the water table) versus the Sphere
