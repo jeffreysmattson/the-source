@@ -80,6 +80,60 @@ the root vegetables (cold and humid) and give onions, garlic, and winter
 squash a separate spot elsewhere in the house instead of forcing them into
 the same air.
 
+### Full crop-by-crop reference
+
+The table above groups crops for planning purposes. For the individual
+figures behind those groups, the table below reproduces University of
+Missouri Extension's crop-by-crop storage chart in full — it's the single
+most complete list of individual fruits and vegetables among the sources on
+this page. Where it lists an "ideal" temperature rather than a range (garlic,
+onions, potatoes), that's the publication's own wording, not a rounding of a
+range.
+
+| Fruit/vegetable | Temperature | Humidity | Notes |
+|---|---|---|---|
+| Apples | 32–40°F | 80–90% | Do not store with vegetables |
+| Beans, dry | 32–50°F | 60–70% | Cool and dry |
+| Beets | 32–40°F | 90–95% | Cold and very moist |
+| Brussels sprouts | 32–40°F | 90–95% | Cold and very moist |
+| Cabbage | 32–40°F | 90–95% | Cold and very moist |
+| Cabbage, Chinese | 32–40°F | 90–95% | Cold and very moist |
+| Carrots | 32–40°F | 90–95% | Cold and very moist |
+| Cauliflower | 32–40°F | 90–95% | Cold and very moist |
+| Celeriac | 32–40°F | 90–95% | Cold and very moist |
+| Celery | 32–40°F | 90–95% | Cold and very moist |
+| Endive (escarole) | 32–40°F | 90–95% | Cold and very moist |
+| Garlic | 32–35°F ideal | 60–70% | Cool and dry |
+| Grapefruit | 32–40°F | 80–90% | Do not store with vegetables |
+| Grapes | 32–40°F | 80–90% | Do not store with vegetables |
+| Horseradish | 32–40°F | 90–95% | Cold and very moist; can be left in the ground under mulch until needed, unless soil freezes hard |
+| Jerusalem artichoke | 32–40°F | 90–95% | Cold and very moist; can be left in the ground under mulch until needed, unless soil freezes hard |
+| Kale | 32–40°F | 90–95% | Cold and very moist |
+| Kohlrabi | 32–40°F | 90–95% | Cold and very moist |
+| Leeks | 32–40°F | 90–95% | Cold and very moist |
+| Onions | 32–35°F ideal | 60–70% | Cool and dry |
+| Oranges | 32–40°F | 80–90% | Do not store with vegetables |
+| Parsnips | 32–40°F | 90–95% | Cold and very moist |
+| Pears | 32–40°F | 80–90% | Do not store with vegetables |
+| Peas, dry | 32–50°F | 60–70% | Cool and dry; airtight container |
+| Peppers, hot dried | 32–50°F | 60–70% | Cool and dry |
+| Popcorn | 32–50°F | 60–70% | Cool and dry; airtight container |
+| Potatoes | 38–40°F ideal | 80–90% | Do not store with fruit |
+| Potatoes, sweet | 50°F minimum | 80–90% | Warm and moist; do not let temperature drop below 50°F or it will spoil |
+| Pumpkins | 50–55°F | 60–75% | Warm and dry |
+| Radish, winter | 32–40°F | 90–95% | Cold and very moist |
+| Rutabaga | 32–40°F | 90–95% | Cold and very moist |
+| Salsify (oyster plant) | 32–40°F | 90–95% | Cold and very moist; can be left in the ground under mulch until needed, unless soil freezes hard |
+| Squash, winter | 50–55°F | 60–75% | Warm and dry |
+| Tomatoes, green | 50°F minimum | 80–90% | Warm and moist; do not let temperature drop below 50°F or it will spoil |
+| Turnip | 32–40°F | 90–95% | Cold and very moist |
+
+Note that this single-source table and the multi-source summary table above
+don't always match exactly (Missouri Extension's onion/garlic humidity band,
+for instance, is narrower than some other sources') — another instance of
+the sources-disagree pattern called out throughout this page. Treat both as
+planning ranges and verify against your own thermometer and hygrometer.
+
 !!! warning "Keep apples and pears away from vegetables"
     Ripening apples and pears give off ethylene gas, which accelerates
     ripening and sprouting in whatever is stored near them — potatoes
