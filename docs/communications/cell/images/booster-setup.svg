@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="920" height="620" role="img" aria-labelledby="bst bsd">
+  <title id="bst">Cell signal booster installation schematic</title>
+  <desc id="bsd">A directional donor antenna on a roof-mounted mast connects through an antenna discharge unit and grounding conductor to a ground rod, and through coax to an indoor amplifier. The amplifier feeds an indoor antenna mounted on the ceiling of the floor below, well separated in height from the roof-mounted donor antenna. A bracket on the right marks that vertical separation as the isolation distance that prevents feedback.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ground -->
+    <path d="M40 560 L700 560" stroke="#a8b2c0" stroke-width="3"/>
+
+    <!-- house -->
+    <rect x="300" y="300" width="340" height="260" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M300 300 L470 190 L640 300" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- ceiling / floor structure, gap left for indoor antenna -->
+    <path d="M310 400 L356 400" stroke="#a8b2c0" stroke-width="2" stroke-dasharray="6 5"/>
+    <path d="M404 400 L630 400" stroke="#a8b2c0" stroke-width="2" stroke-dasharray="6 5"/>
+
+    <!-- mast -->
+    <path d="M560 248 L560 90" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- yagi elements: boom + tapering directors -->
+    <path d="M560 90 L622 90" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M568 77 L568 103" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M583 80 L583 100" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M598 82 L598 98" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M612 84 L612 96" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M630 84 L642 90 L630 96" stroke="#a8b2c0" stroke-width="2"/>
+
+    <!-- antenna discharge unit -->
+    <rect x="554" y="242" width="12" height="12" stroke="#8a95a6" stroke-width="2.5"/>
+
+    <!-- grounding conductor to rod -->
+    <path d="M566 248 L600 296 L600 560" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M600 560 L600 592" stroke="#8a95a6" stroke-width="3"/>
+    <path d="M582 572 L618 572" stroke="#a8b2c0" stroke-width="2.5"/>
+    <path d="M588 582 L612 582" stroke="#a8b2c0" stroke-width="2"/>
+    <path d="M593 591 L607 591" stroke="#a8b2c0" stroke-width="1.5"/>
+
+    <!-- amplifier -->
+    <rect x="480" y="440" width="80" height="40" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- indoor dome antenna, hanging at the ceiling gap -->
+    <path d="M356 400 A24 24 0 0 0 404 400" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- coax: exposed run (solid) then concealed run (dashed) -->
+    <g stroke="#f0a33c">
+      <path d="M566 90 L566 242" stroke-width="3"/>
+      <path d="M560 248 L560 400 L520 400 L520 440" stroke-width="3" stroke-dasharray="7 6"/>
+      <path d="M500 480 L500 500 L410 500 L410 415" stroke-width="3" stroke-dasharray="7 6"/>
+    </g>
+
+    <!-- isolation bracket -->
+    <path d="M600 90 L850 90" stroke="#a8b2c0" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <path d="M420 400 L850 400" stroke="#a8b2c0" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <path d="M850 90 L850 400" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M844 100 L850 88 L856 100" stroke="#8a95a6" stroke-width="2.5"/>
+    <path d="M844 390 L850 402 L856 390" stroke="#8a95a6" stroke-width="2.5"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#7f8b9c">
+    <text x="628" y="88">Donor (outside)</text>
+    <text x="628" y="102">antenna</text>
+    <text x="628" y="122" font-size="11.5">aim at strongest</text>
+    <text x="628" y="135" font-size="11.5">signal (dBm survey)</text>
+
+    <text x="580" y="212">Antenna discharge</text>
+    <text x="580" y="226">unit (NEC 810.20)</text>
+
+    <text x="610" y="420">Grounding conductor,</text>
+    <text x="610" y="434">≥10 AWG Cu, straight run</text>
+    <text x="610" y="448">to grounding electrode</text>
+    <text x="622" y="605" font-size="11.5">Ground rod</text>
+
+    <text x="520" y="464" text-anchor="middle">Amplifier</text>
+
+    <text x="346" y="440" text-anchor="end">Indoor (server)</text>
+    <text x="346" y="454" text-anchor="end">antenna</text>
+
+    <text x="470" y="392" text-anchor="middle" font-size="11.5">floor structure adds isolation</text>
+
+    <text x="862" y="238">Vertical isolation —</text>
+    <text x="862" y="254">25–30 ft typical,</text>
+    <text x="862" y="270">more for higher gain</text>
+    <text x="862" y="286">(see table by gain)</text>
+  </g>
+</svg>
