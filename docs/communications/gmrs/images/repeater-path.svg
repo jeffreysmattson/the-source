@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 540" width="860" height="540" role="img" aria-labelledby="title desc">
+  <title id="title">GMRS repeater signal path</title>
+  <desc id="desc">A handheld on the left transmits up a hill to a repeater station on the highest peak, which receives on a 467 MHz channel and retransmits on its paired 462 MHz channel down to a second handheld on the right. The path returns in the other direction. Because the signal clears the terrain only once at each end, both users stay within line of sight of the repeater even though they cannot see each other.</desc>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- terrain -->
+    <path d="M20 470 L150 380 L260 440 L430 250 L600 440 L710 380 L840 470" stroke="#8a95a6" stroke-width="4"/>
+    <path d="M20 470 L840 470" stroke="#8a95a6" stroke-width="2" stroke-dasharray="3 5"/>
+
+    <!-- repeater station on the peak -->
+    <line x1="430" y1="250" x2="430" y2="170" stroke="#8a95a6" stroke-width="4"/>
+    <line x1="414" y1="185" x2="446" y2="185" stroke="#8a95a6" stroke-width="3"/>
+    <line x1="418" y1="200" x2="442" y2="200" stroke="#8a95a6" stroke-width="3"/>
+    <rect x="404" y="228" width="52" height="24" rx="4" fill="#a8b2c0" opacity="0.35" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- handheld A (left) -->
+    <rect x="140" y="346" width="20" height="34" rx="4" fill="#a8b2c0" opacity="0.35" stroke="#8a95a6" stroke-width="3"/>
+    <line x1="150" y1="346" x2="150" y2="326" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- handheld B (right) -->
+    <rect x="700" y="346" width="20" height="34" rx="4" fill="#a8b2c0" opacity="0.35" stroke="#8a95a6" stroke-width="3"/>
+    <line x1="710" y1="346" x2="710" y2="326" stroke="#8a95a6" stroke-width="3"/>
+
+    <!-- A to repeater: TX 467 (orange) -->
+    <path d="M158 330 L414 196" stroke="#f0a33c" stroke-width="3.5"/>
+    <polygon points="414,196 398,192 404,206" fill="#f0a33c" stroke="none"/>
+
+    <!-- repeater to B: RX 462 (blue) -->
+    <path d="M446 196 L702 330" stroke="#7fb8f5" stroke-width="3.5"/>
+    <polygon points="702,330 686,326 692,312" fill="#7fb8f5" stroke="none"/>
+
+    <!-- B to repeater: TX 467 (orange, lighter) -->
+    <path d="M702 340 L446 208" stroke="#f0a33c" stroke-width="2.5" opacity="0.55"/>
+    <polygon points="446,208 461,205 456,219" fill="#f0a33c" stroke="none" opacity="0.55"/>
+
+    <!-- repeater to A: RX 462 (blue, lighter) -->
+    <path d="M414 208 L158 340" stroke="#7fb8f5" stroke-width="2.5" opacity="0.55"/>
+    <polygon points="158,340 173,343 168,329" fill="#7fb8f5" stroke="none" opacity="0.55"/>
+
+    <!-- blocked direct path between the two users -->
+    <path d="M170 350 L690 350" stroke="#7f8b9c" stroke-width="2" stroke-dasharray="6 6"/>
+    <g stroke="#7f8b9c" stroke-width="2.5">
+      <line x1="420" y1="340" x2="440" y2="360"/>
+      <line x1="440" y1="340" x2="420" y2="360"/>
+    </g>
+  </g>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+    <!-- frequency labels on the strong paths -->
+    <text x="255" y="248" font-size="13" fill="#f0a33c">TX 467.5500</text>
+    <text x="545" y="232" font-size="13" fill="#7fb8f5">RX 462.5500</text>
+
+    <!-- station labels -->
+    <g font-size="13" fill="#a8b2c0">
+      <text x="150" y="410" text-anchor="middle">Handheld A</text>
+      <text x="150" y="426" text-anchor="middle" font-size="11.5" fill="#7f8b9c">transmits high (467)</text>
+      <text x="150" y="441" text-anchor="middle" font-size="11.5" fill="#7f8b9c">receives low (462)</text>
+      <text x="430" y="278" text-anchor="middle">Repeater station</text>
+      <text x="430" y="294" text-anchor="middle" font-size="11.5" fill="#7f8b9c">elevated site, up to 50 W</text>
+      <text x="710" y="410" text-anchor="middle">Handheld B</text>
+      <text x="710" y="426" text-anchor="middle" font-size="11.5" fill="#7f8b9c">transmits high (467)</text>
+      <text x="710" y="441" text-anchor="middle" font-size="11.5" fill="#7f8b9c">receives low (462)</text>
+    </g>
+
+    <!-- blocked direct path note -->
+    <text x="40" y="80" font-size="12.5" fill="#a8b2c0">Direct path between users is blocked by terrain.</text>
+    <text x="40" y="98" font-size="12.5" fill="#7f8b9c">Each user only needs line of sight to the repeater.</text>
+
+    <!-- tone note -->
+    <text x="430" y="500" text-anchor="middle" font-size="12.5" fill="#a8b2c0">If the repeater is tone-locked, transmissions must carry its subaudible (CTCSS/PL) access code.</text>
+  </g>
+</svg>

@@ -1,9 +1,19 @@
 # GMRS
 
-General Mobile Radio Service: license-by-household two-way radio for family
-and small-group communications. Lower barrier to entry than
-[ham radio](../ham-radio/index.md) — one license, no exam, covers an entire
-household — but shorter range and less flexibility.
+General Mobile Radio Service: licensed two-way radio for household and
+small-group communications. One individual license — $35, ten years, no exam,
+applied for online in about fifteen minutes — covers every station you own:
+handhelds, vehicle mobiles, a base at home, and even a repeater, anywhere in
+the United States and its territories.
 
-Pages will be added here covering licensing, radio selection, and repeater
-use.
+It sits between unlicensed FRS (the ordinary "walkie-talkies," which share all
+of GMRS's frequencies) and [ham radio](../ham-radio/index.md): more power,
+more channels, and repeaters than FRS allows, but no licensing exam like ham
+requires. For a household that wants reliable local communications without
+studying for a test, it is the best cost-to-capability trade in
+[Communications](../index.md).
+
+Pages cover [licensing](10-licensing.md), the
+[frequency and power plan](20-frequencies-and-power.md),
+[radio selection](30-radio-selection.md), [repeaters](40-repeater-use.md), and
+[operating procedure](50-operations.md).

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 556" width="860" height="556" role="img" aria-labelledby="title desc">
+  <title id="title">GMRS and FRS channel plan, 462-467 MHz</title>
+  <desc id="desc">Two horizontal bands. The upper band is the 462 MHz side: eight orange main channels at 462.5500 to 462.7250 and seven blue interstitial channels between them. The lower band is the 467 MHz side with the same layout. Dashed vertical lines pair each 462 main channel with its 467 counterpart, which is how GMRS repeaters are wired: users transmit on 467 to reach the repeater and hear it back on 462. Notes below list power limits and FRS sharing for each group of channels.</desc>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+    <!-- band labels -->
+    <text x="30" y="135" font-size="15" fill="#a8b2c0" font-weight="600">462 MHz</text>
+    <text x="30" y="325" font-size="15" fill="#a8b2c0" font-weight="600">467 MHz</text>
+
+    <!-- annotation above 462 band -->
+    <text x="154" y="88" font-size="13" fill="#a8b2c0">Main (8): 462.5500-462.7250 MHz</text>
+    <text x="400" y="88" font-size="12" fill="#7f8b9c">interstitial (7) between them</text>
+
+    <!-- 462 MHz band blocks: main (orange) then interstitial (blue), y 100..150 -->
+    <g>
+      <rect x="154" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="233" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="312" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="391" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="470" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="549" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="628" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="707" y="100" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="193" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="272" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="351" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="430" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="509" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="588" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="667" y="100" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+    </g>
+
+    <!-- frequency ticks, 462 band -->
+    <g font-size="11.5" fill="#7f8b9c">
+      <text x="169" y="170" text-anchor="middle">.5500</text>
+      <text x="327" y="170" text-anchor="middle">.6000</text>
+      <text x="485" y="170" text-anchor="middle">.6500</text>
+      <text x="643" y="170" text-anchor="middle">.7000</text>
+      <text x="722" y="170" text-anchor="middle">.7250</text>
+    </g>
+
+    <!-- pairing lines between 462 main and 467 main channels (clean gap) -->
+    <g stroke="#8a95a6" stroke-width="1.5" stroke-dasharray="4 4">
+      <line x1="169" y1="152" x2="169" y2="262"/>
+      <line x1="248" y1="152" x2="248" y2="262"/>
+      <line x1="327" y1="152" x2="327" y2="262"/>
+      <line x1="406" y1="152" x2="406" y2="262"/>
+      <line x1="485" y1="152" x2="485" y2="262"/>
+      <line x1="564" y1="152" x2="564" y2="262"/>
+      <line x1="643" y1="152" x2="643" y2="262"/>
+      <line x1="722" y1="152" x2="722" y2="262"/>
+    </g>
+
+    <!-- annotation above 467 band -->
+    <text x="154" y="276" font-size="13" fill="#a8b2c0">Main (8): 467.5500-467.7250 MHz - repeater input, GMRS only</text>
+
+    <!-- 467 MHz band blocks, y 290..340 -->
+    <g>
+      <rect x="154" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="233" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="312" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="391" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="470" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="549" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="628" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="707" y="290" width="30" height="50" rx="4" fill="#f0a33c" opacity="0.85"/>
+      <rect x="193" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="272" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="351" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="430" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="509" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="588" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+      <rect x="667" y="290" width="30" height="50" rx="4" fill="#7fb8f5" opacity="0.85"/>
+    </g>
+
+    <!-- frequency ticks, 467 band -->
+    <g font-size="11.5" fill="#7f8b9c">
+      <text x="169" y="360" text-anchor="middle">.5500</text>
+      <text x="327" y="360" text-anchor="middle">.6000</text>
+      <text x="485" y="360" text-anchor="middle">.6500</text>
+      <text x="643" y="360" text-anchor="middle">.7000</text>
+      <text x="722" y="360" text-anchor="middle">.7250</text>
+    </g>
+
+    <!-- notes section -->
+    <g font-size="12.5" fill="#a8b2c0">
+      <text x="154" y="398">462 main: up to 50 W mobile/base/repeater, 15 W fixed - shared with FRS ch 15-22 (2 W)</text>
+      <text x="154" y="416">462 interstitial: 5 W ERP, mobile/handheld/base only - shared with FRS ch 1-7 (2 W)</text>
+      <text x="154" y="434">467 main: GMRS-only; user units transmit on these only when talking through a repeater</text>
+      <text x="154" y="452">467 interstitial: handhelds only, 0.5 W ERP - shared with FRS ch 8-14 (0.5 W)</text>
+    </g>
+
+    <!-- legend -->
+    <g font-size="12.5" fill="#a8b2c0">
+      <rect x="154" y="476" width="16" height="16" rx="3" fill="#f0a33c" opacity="0.85"/>
+      <text x="178" y="489">Main channel (25 kHz spacing, 20 kHz bandwidth)</text>
+      <rect x="530" y="476" width="16" height="16" rx="3" fill="#7fb8f5" opacity="0.85"/>
+      <text x="554" y="489">Interstitial channel (shared with FRS)</text>
+    </g>
+
+    <!-- pairing note -->
+    <g font-size="12.5" fill="#a8b2c0">
+      <line x1="169" y1="514" x2="169" y2="534" stroke="#8a95a6" stroke-width="1.5" stroke-dasharray="4 4"/>
+      <text x="182" y="523">Paired channels, 5 MHz apart: a repeater receives on the 467 main channel and</text>
+      <text x="182" y="539">retransmits on its paired 462 main channel (e.g. in 467.5500 / out 462.5500).</text>
+    </g>
+  </g>
+</svg>
