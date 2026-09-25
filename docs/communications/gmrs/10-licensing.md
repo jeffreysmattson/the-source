@@ -1,5 +1,11 @@
 # GMRS Licensing
 
+!!! note "As of September 25, 2026"
+    The regulatory details on this page — fees, license term, eligibility and
+    operating rules — are as of **September 25, 2026**. FCC fees and Part 95
+    rules do change; confirm current requirements in ULS and the eCFR before
+    you apply.
+
 ## Summary
 
 Operating GMRS equipment requires an individual FCC license — with one
